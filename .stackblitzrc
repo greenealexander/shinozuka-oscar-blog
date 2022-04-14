@@ -1,0 +1,6 @@
+{
+  "startCommand": "yarn start",
+  "env": {
+    "ENABLE_CJS_IMPORTS": true
+  }
+}
