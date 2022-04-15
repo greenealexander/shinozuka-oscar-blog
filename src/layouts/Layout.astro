@@ -1,4 +1,6 @@
 ---
+import Navbar from '../components/Navbar.astro';
+
 const {title} = Astro.props;
 ---
 
@@ -9,8 +11,25 @@ const {title} = Astro.props;
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<title>{title ?? 'Shinozuka Oscar'}</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
 	</head>
 	<body>
+		<Navbar />
+
 		<slot></slot>
+
+		<div id="search"></div>
+		
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+		<script type="text/javascript">
+			algoliasearchNetlify({
+				appId: 'SETF4YXB0W',
+				apiKey: 'fc6a5d5bc0ce0e99bf6846d4f26fc0d8',
+				siteId: 'c21cc5f9-37fe-4a72-be35-dd0dd5b26d18',
+				branch: 'main',
+				selector: 'div#search',
+			});
+		</script>
 	</body>
 </html>
