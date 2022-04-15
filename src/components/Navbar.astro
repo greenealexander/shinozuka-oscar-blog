@@ -1,4 +1,9 @@
-<div class="navbar bg-base-100">
+---
+import ThemeSelect from './ThemeSelect.tsx';
+import Search from './Search.tsx';
+---
+
+<nav class="container mx-auto navbar bg-base-100">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex={0} class="btn btn-ghost lg:hidden">
@@ -8,7 +13,7 @@
        <li><a href='/about'>About</a></li>
       </ul>
     </div>
-    <a href='/' class="btn btn-ghost normal-case text-xl">Shinozuka Oscar</a>
+    <a href='/' class="normal-case text-lg">Shinozuka Oscar</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
@@ -16,8 +21,7 @@
     </ul>
   </div>
   <div class="navbar-end">
-    <button class="btn btn-ghost btn-circle">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-    </button>
+    <Search client:idle />
+    <ThemeSelect client:idle />
   </div>
-</div>
+</nav>
