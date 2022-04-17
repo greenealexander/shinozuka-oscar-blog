@@ -1,0 +1,11 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { content } = Astro.props;
+---
+
+<BaseLayout title={content.title}>
+  <article class="mx-auto prose lg:prose-xl">
+    <slot />
+  </article>
+</BaseLayout>

@@ -1,7 +1,35 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const topRecommendations = [
+	{ imageUrl: '/images/book-image-1.jpg', alt: 'Book 1', author: 'Stephen King' },
+	{ imageUrl: '/images/book-image-2.jpg', alt: 'Book 2', author: 'Stephen King' },
+	{ imageUrl: '/images/book-image-3.jpg', alt: 'Book 3', author: 'Stephen King' },
+]
 ---
 
-<Layout title='Home'>
-	<h1>Home page</h1>
-</Layout>
+<BaseLayout title='Home'>
+	<section class='flex flex-col items-center'>
+		<h2 class='mb-4 text-3xl md:text-5xl lg:text-7xl opacity-10 text-center'>
+			2022's Recommendations
+		</h2>
+
+		<div class='w-full lg:w-3/4 xl:w-7/12 2xl:w-1/2 flex items-center justify-between'>
+			{topRecommendations.map((rec, i) => (
+				<div class={`relative h-48 sm:h-60 md:h-80 shadow-xl rounded overflow-hidden ${i % 2 > 0 ? '-mt-12' : 'mt-12'}`}>
+					<img src={rec.imageUrl} alt={rec.alt} class='h-full'>
+					<div class='group py-2 px-4 rounded absolute inset-0 flex flex-col border border-white border-opacity-30 bg-white bg-opacity-50 backdrop-blur-xl shadow-lg transition-colors duration-300 hover:backdrop-blur-none hover:bg-transparent'>
+						<div class='opacity-0 group-hover:opacity-100 transition-opacity duration-300 btn flex gap-1 mt-auto'>
+							<a href="#" class='link'>Check it out</a>
+							<span>↗</span>
+						</div>
+					</div>
+				</div>
+			))}
+		</div>
+
+		<a href="#" class='btn btn-outline mt-4'>See recommendations</a>
+	</section>
+
+	<hr class='my-12'>
+</BaseLayout>

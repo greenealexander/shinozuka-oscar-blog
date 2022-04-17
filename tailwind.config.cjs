@@ -3,12 +3,12 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
   daisyui: {
     themes: [
       {
         light: {
-          ...require("daisyui/src/colors/themes")["[data-theme=pastel]"],
+          ...require("daisyui/src/colors/themes")["[data-theme=cupcake]"],
           "--color-mark": "#5468ff",
           "--color-background": "#fff",
           "--color-selected": "#f5f5fa",
