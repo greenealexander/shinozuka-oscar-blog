@@ -24,9 +24,9 @@ function linkClass(label: Link['label'], active: string) {
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle"> 
 
   <div class="drawer-content flex flex-col">
-    <div class='sticky top-0 z-10'>
+    <header class='sticky top-0 z-10'>
       <div class='container mx-auto'>
-        <header>
+        <div>
           <div class="navbar">
             <div class="navbar-start">
               <div class="flex-none lg:hidden">
@@ -73,16 +73,16 @@ function linkClass(label: Link['label'], active: string) {
               </svg>
             </div>
           </div>
-        </header>
+        </div>
       </div>
-    </div>
+    </header>
   
     <slot />
   </div>
 
   <nav class="drawer-side">
     <label for="my-drawer-3" class="drawer-overlay"></label> 
-    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
+    <ul class="menu p-4 overflow-y-auto w-80">
       {links.map(({label, path}) => (
         <li><a href={path} class={linkClass(label, activeTitle)}>{label}</a></li>
       ))}
@@ -90,5 +90,15 @@ function linkClass(label: Link['label'], active: string) {
   </nav>
 </div> 
 
+<style>
+header {
+  background-color: hsl(var(--b1));
+  @apply shadow-md;
+}
+
+.drawer-side ul {
+  background-color: hsl(var(--b1));
+}
+</style>
 
 
