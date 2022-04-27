@@ -8,7 +8,7 @@ module.exports = {
     themes: [
       {
         light: {
-          ...require("daisyui/src/colors/themes")["[data-theme=cupcake]"],
+          ...require("daisyui/src/colors/themes")["[data-theme=light]"],
           "--color-mark": "#5468ff",
           "--color-background": "#fff",
           "--color-selected": "#f5f5fa",
@@ -24,7 +24,7 @@ module.exports = {
           "--color-background": "#23263b",
           "--color-selected": "#111432",
           "--color-text": "#d6d6e7",
-          "--color-input-icon": "rgba(var(--aa-primary-color-rgb), 1)",
+          "--color-input-icon": "#d6d6e777",
           "--color-source-icon": "#d6d6e777",
         },
       },

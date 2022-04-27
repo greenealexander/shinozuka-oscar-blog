@@ -2,10 +2,60 @@
 import BaseLayout from './BaseLayout.astro';
 
 const { content } = Astro.props;
+const bookImageSrc = 
+  `https://images.ctfassets.net/gmpl42c7a7o8/5XGAxgaDGhM3LgmwejQwg3/fef9b6d523c4860ca50e9973b7ad87e9/${content.bookImage}?w=320&h=320&fm=avif`;
 ---
 
 <BaseLayout title={content.title}>
-  <article class="mx-auto prose lg:prose-xl">
+  <article class="article mx-auto prose md:prose-lg lg:prose-xl">
+    <div class="flex flex-col items-center">
+      <h6 class="text-left w-full">{content.date}</h6>
+
+      <h1 class="!mb-0 text-center">{content.bookAuthor}: {content.bookTitle}</h1>
+
+      <img 
+        src={bookImageSrc} 
+        alt={`${content.bookTitle} Cover`}
+        class="no-prose h-80 w-80 overflow-hidden object-scale-down"
+      >
+
+      <div class="flex gap-4">
+        <a 
+          href={content.bookLinkUs}
+          target="_blank" 
+          rel="noopener noreferrer"
+        >Amazon US</a> | 
+        <a 
+          href={content.bookLinkJp}
+          target="_blank" 
+          rel="noopener noreferrer"
+        >Amazon JP</a>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <span>My Rating:</span>
+        <div class="rating rating-md rating-half">
+          {Array.from({length: 5}).map((_, i) => (
+            <>
+              <input 
+                type="radio" 
+                name="rating" 
+                class="bg-orange-400 mask mask-star-2 mask-half-1" 
+                checked={content.bookRating === ((i * 2) + 1) * 0.5}
+              />
+              <input 
+                type="radio" 
+                name="rating" 
+                class="bg-orange-400 mask mask-star-2 mask-half-2"
+                checked={content.bookRating === ((i * 2) + 2) * 0.5}
+              />
+            </>
+          ))}
+        </div>
+      </div>
+       
+    </div>
+
     <slot />
   </article>
 </BaseLayout>

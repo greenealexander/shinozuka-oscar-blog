@@ -1,33 +1,25 @@
 ---
-import Navbar from '../components/Navbar/index.astro';
-import '../styles/algolia-search.css';
-import '../styles/global.css';
+import Drawer from '../components/Drawer.astro';
+import MainHead from '../components/MainHead.astro';
 
-const { title } = Astro.props;
+const { title, description, containerClass } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-		<title>{title ?? 'Shinozuka Oscar'}</title>
+		<MainHead title={title} description={description ?? 'some description'} />
 	</head>
-	<body>
-		<div class='sticky top-0 z-10'>
-			<div class='container mx-auto'>
-				<Navbar activeTitle={title} />
-			</div>
-		</div>
-		
-		<main class='container mx-auto p-2 px-4 min-h-screen'>
-			<slot />
-		</main>
 
-		<footer class='flex justify-center py-4'>
-			© Copyright © 2022 Shinozuka Oscar - All Rights Reserved.
-		</footer>
+	<body>
+		<Drawer title={title}>
+			<main class={containerClass ?? `container mx-auto p-2 px-4`}>
+				<slot />
+			</main>
+
+			<footer class='flex justify-center py-8'>
+				© Copyright © 2022 Shinozuka Oscar - All Rights Reserved.
+			</footer>
+		</Drawer>
 
 		<script
 			type="text/javascript"

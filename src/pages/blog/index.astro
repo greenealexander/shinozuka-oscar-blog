@@ -1,7 +1,12 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const posts = await Astro.glob('./blog/*.md');
+interface Frontmatter {
+	title: string;
+	date: string;
+}
+
+const posts = await Astro.glob<Frontmatter>('./*.md');
 ---
 
 <BaseLayout title='Blog'>
