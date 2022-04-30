@@ -1,0 +1,92 @@
+---
+// import Search from './Search.tsx';
+import ThemeToggle from './ThemeToggle.tsx';
+import { TwitterIcon, DiscordIcon, DrawerIcon } from '../icons/index';
+import Links, { LinkMap } from './Links';
+
+const { title } = Astro.props;
+
+const linkMap: LinkMap = new Map([
+  ['Home', { path: '/' }],
+  ['Blog', { path: '/blog' }],
+  ['Books', {
+    path: '/book-recommendations', 
+    children: new Map([
+      ['Recommendations', { path: '/book-recommendations' }],
+      ['2022 Reading List', { path: '/2022-reading-list' }],
+    ])
+  }],
+  ['About Me', { path: '/about-me' }],
+]);
+---
+<div class="drawer">
+  <input id="my-drawer-3" type="checkbox" class="drawer-toggle"> 
+
+  <div class="drawer-content flex flex-col">
+    <header class='sticky top-0 z-10'>
+      <div class='container mx-auto'>
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="flex-none lg:hidden">
+              <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                <DrawerIcon className='inline-block w-6 h-6 stroke-current' />
+              </label>
+            </div>
+
+            <nav class="hidden lg:flex">
+              <ul class="menu menu-horizontal justify-center gap-x-6">
+                <Links activeTitle={title} linkMap={linkMap} />
+              </ul>  
+            </nav>
+          </div>
+
+          <div class="navbar-end flex gap-4">
+            <!-- <Search client:idle /> -->
+            <ThemeToggle client:idle className="icon" />
+
+            <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+              <DiscordIcon className="icon" />
+            </a>
+
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <TwitterIcon className="icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <slot />
+  </div>
+
+  <nav class="drawer-side">
+    <label for="my-drawer-3" class="drawer-overlay"></label>
+
+    <ul tabindex={0} class="menu menu-compact dropdown-content p-4 w-64">
+      <Links activeTitle={title} linkMap={linkMap} isSideDrawer />
+    </ul>
+  </nav>
+</div> 
+
+<style>
+a {
+  @apply link link-hover rounded-lg;
+}
+
+header {
+  background-color: hsl(var(--b1));
+  @apply shadow-md;
+}
+
+ul {
+  background-color: hsl(var(--b1));
+}
+
+.drawer-side ul {
+  @apply rounded-b-lg;
+}
+
+.icon {
+  @apply h-6 w-6 fill-current;
+}
+</style>
