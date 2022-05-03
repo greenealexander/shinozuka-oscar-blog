@@ -40,7 +40,7 @@ const linkMap: LinkMap = new Map([
             </nav>
           </div>
 
-          <div class="navbar-end flex gap-4">
+          <div class="navbar-end flex gap-4 pr-4">
             <!-- <Search client:idle /> -->
             <ThemeToggle client:idle className="icon" />
 
@@ -62,7 +62,7 @@ const linkMap: LinkMap = new Map([
   <nav class="drawer-side">
     <label for="my-drawer-3" class="drawer-overlay"></label>
 
-    <ul tabindex={0} class="menu menu-compact dropdown-content p-4 w-64">
+    <ul tabindex={0} class="menu menu-compact dropdown-content p-4 w-40">
       <Links activeTitle={title} linkMap={linkMap} isSideDrawer />
     </ul>
   </nav>
