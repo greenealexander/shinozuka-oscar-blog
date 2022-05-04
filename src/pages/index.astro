@@ -1,5 +1,15 @@
 ---
+import contentful from 'contentful';
+
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const contentfulClient = contentful.createClient({
+	space: process.env.CONTENTFUL_SPACE,
+	accessToken: process.env.CONTENTFUL_ACCESSTOKEN,
+});
+
+const response = await contentfulClient.getAsset('anHAn3HieuFwvCrOXlLP2');
+console.log(response.fields);
 ---
 
 <BaseLayout title='Home' containerClass="">
@@ -46,7 +56,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 					<div class="card-body">
 						<div class="flex flex-col">
-							<h2 class="card-title lg:mt-4">Saintes fesses d'étole de cul de sapristi de crucifix de boswell.</h2>
+							<h2 class="card-title lg:mt-4"><a href="/blog/post1" class="link link-hover">Saintes fesses d'étole de cul de sapristi de crucifix de boswell.</a></h2>
 							<div class='flex flex-wrap gap-2 py-2 lg:hidden'>
 								<div class="badge badge-sm badge-outline">Thriller</div>
 								<div class="badge badge-sm badge-outline">Mystery</div>
@@ -59,29 +69,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 						</div>
 
 						<p>Enfant d'chienne de calvince de baptême de cibolac de cimonaque de mosus de Jésus de plâtre de cibouleau de sapristi de cibole de saint-ciarge.</p>
-						
-						<div class="card-actions mt-2 items-center justify-between">
-							<div class="rating rating-md rating-half">
-								{Array.from({length: 5}).map((_, i) => (
-									<>
-										<input 
-											type="radio" 
-											name={`book-rating-${(bookIdx * 2) + 1}`} 
-											class="bg-orange-400 mask mask-star-2 mask-half-1" 
-											checked={3.5 === ((i * 2) + 1) * 0.5}
-										/>
-										<input 
-											type="radio" 
-											name={`book-rating-${(bookIdx * 2) + 2}`} 
-											class="bg-orange-400 mask mask-star-2 mask-half-2"
-											checked={3.5 === ((i * 2) + 2) * 0.5}
-										/>
-									</>
-								))}
-							</div>
-
-							<a href="/blog/post1" class="btn btn-outline btn-sm">Read</a>
-						</div>
 					</div>
 				</div>
 			))}

@@ -1,11 +1,9 @@
 ---
 layout: ../../layouts/BlogPost.astro
 
-title: Men Without Women (2014)
-date: May 26, 2022
+title: "Haruki Murakami: Men Without Women (2014)"
+date: 5/26/2022
 
-bookTitle: Men Without Women (2014)
-bookAuthor: Haruki Murakami
 bookImage: book-image-1.jpg
 bookRating: 4
 bookLinkUs: https://google.com
