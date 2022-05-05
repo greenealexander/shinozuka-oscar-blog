@@ -53,7 +53,7 @@ Something I disliked about this story was the needless and redundant narration. 
 The specific example below was used to end one of the chapters and reminded me of the animation series Dragonball because, at the end of each episode, there would be narration that goes along the lines of, ‘will Goku be able to defeat his opponent? Find out next time on Dragonball.’ This is done a handful of times throughout the story, which I found annoying and unnecessary, but not a big deal overall.
 >Now perhaps readers will think that the author has committed a major bungle here. They might object that because Mme Midorikawa had disguised herself as Sanae and was sleeping in the bed beside Iwase, it would make absolutely no sense for the same Mme Midorikawa to be coming into the room from the corridor.
 ><br>But the author has not made a mistake. Both are correct. And this is the only Mme Midorikawa in existence. What this all means will become clear as our story unfolds.
-> <cite>  Edogawa Ranpo, pg. 39 </cite>
+<cite>  Edogawa Ranpo, pg. 39 </cite>
 
 Although Edogawa Ranpo doesn’t go as far as to underestimate the reader—far from it—there were some instances where he said more than he needed to. This is very nitpicky, but for some reason, it stayed in my mind and got me thinking about why he chose to do this, so I wanted to mention it.
 
@@ -64,7 +64,7 @@ Although Edogawa Ranpo doesn’t go as far as to underestimate the reader—far 
 I preferred this story over The Black Lizard because there was more to it besides the mystery behind the tricks and a simple battle of wits. Don’t get me wrong. I love being deceived by the author’s tricks, especially when they reel me in to the point of assuming I’ve solved them, but it will leave me with a feeling of emptiness due to the lack of emotion. However, when combined with a narrative that provokes an emotional response as well, there is no comparison in the sense of connection I will experience with the latter, which is exactly what happened. And despite being about half the length, Beast in the Shadows has a lot more depth in every aspect—characters, plot, narration, dialogue, theme, etc. 
 
 >It sometimes seems to me that there are two types of detective novelists. One, you could say, is the criminal sort, whose only interest is in the crime and who cannot be satisfied when writing a detective story of the deductive kind unless depicting the cruel psychology of the criminal. The other is the detective type, an author of very sound character whose only interest is in the intellectual process of detection and who is indifferent to the criminal’s psychology.
-> <cite> Edogawa Ranpo, pg. 177 </cite>
+<cite> Edogawa Ranpo, pg. 177 </cite>
 
 The reason why I emotionally resonated more with this story is because of the introspection of the protagonist, a mystery writer of the latter variety described in the excerpt above. He was desperate to save Shizuko, a married woman, from a man named Hirata, who was threatening Shizuko years after an affair they had together which ended with him being discarded by her. Hirata, also known as Oe Shundei, a famous mystery writer of the former variety, had somehow located her and had written letters to Shizuko warning her of his desire to cause her as much pain—physically and mentally—as possible.
 
@@ -78,7 +78,7 @@ Like many mysteries, the best part is the resolution where all the pieces of the
 ’Why do you cry? Why have you been trying to stop me from proceeding with my deductions? Surely you would want to hear me if it were a matter of life or death for you. That alone makes me suspect you. Listen to me. I have not finished yet.
 ><br>[...] I shook Shizuko off. She fell heavily on the bed, burst into tears, and would not answer no matter how long I waited. I was quite agitated and without thinking I raised the riding whip and lashed her naked back. Take that, and that, I thought as, losing control, I lashed and lashed. Gradually the redness spread on her pale skin until a wormlike wound stained with scarlet blood took shape. She lay there at my feet in the same lewd pose as always, with her hand and feet writhing and her body undulating.
 <br>
-> <cite> Edogawa Ranpo, pg. 268-269 </cite>
+<cite> Edogawa Ranpo, pg. 268-269 </cite>
 
 >I learned that Shizuko has committed suicide in the evening of the following day.
 ><br>[...] Reading this article, I felt profoundly sad thinking of the pitiful death of my former lover, but then Shizuko’s death seemed to me an entirely natural outcome for it was indeed appropriate that she should confess her terrible crime. I believed this for about a month.
@@ -86,6 +86,6 @@ Like many mysteries, the best part is the resolution where all the pieces of the
 ><br>I had not heard Shizuko herself utter a single word of confession. Even though all the evidence was lined up, the interpretation of this evidence was all of my construction. There was no immovable certainty such as in the equation ‘two plus two equals four.’ Once I had put together my flimsy deductions based solely on the word of the taxi driver and the evidence from the house cleaner, did I not interpret the evidence in a way that was opposite to the truth?
 ><br>[...] If so, I was clearly her murderer, even if I did not directly lay a hand on her.
 <br>
-> <cite>  Edogawa Ranpo, pg. 274 </cite>
+<cite>  Edogawa Ranpo, pg. 274 </cite>
 
 I loved the ending because, like the protagonist, I was convinced that Shizuko was the culprit. I was so possessed by the idea that I used the available evidence to justify my reasoning and claiming that someone was the culprit without any concrete proof. This was also a great way to end a story as a cliffhanger without abruptly cutting off the story, leaving me more than satisfied.
