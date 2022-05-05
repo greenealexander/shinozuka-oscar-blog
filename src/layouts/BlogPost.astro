@@ -7,22 +7,19 @@ const bookImageSrc =
 ---
 
 <BaseLayout title={content.title} containerClass="">
-  <section class="relative">
-    <!-- <img class="absolute inset-0 blur-sm" src="https://images.ctfassets.net/gmpl42c7a7o8/5XGAxgaDGhM3LgmwejQwg3/fef9b6d523c4860ca50e9973b7ad87e9/${content.bookImage}?fit=scale&w=640&h=640&fm=avif" alt="background"> -->
-    <div class="relative py-6 mx-auto flex flex-col items-center prose md:prose-lg lg:prose-xl ">
-      <h1 class="!mb-0 text-center">{content.title}</h1>
-
-      <img 
-        src={bookImageSrc} 
-        alt={`Book Cover`}
-        class="no-prose h-80 w-80 overflow-hidden object-scale-down"
-      >
-    </div>
-  </section>
-
   <section class="flex flex-col xl:grid grid-cols-[auto_1fr] container mx-auto">
-    <article class="mx-auto xl:mx-0 article px-6 prose md:prose-lg lg:prose-xl">
+    <article class="mx-auto xl:mx-0 px-6 prose md:prose-lg lg:prose-xl">
         <div class="flex flex-col items-center">
+         <div class="py-6 mx-auto flex flex-col items-center prose md:prose-lg lg:prose-xl ">
+            <h1 class="!mb-0 text-center">{content.title}</h1>
+
+            <img 
+              src={bookImageSrc} 
+              alt={`Book Cover`}
+              class="no-prose h-80 w-80 overflow-hidden object-scale-down"
+            >
+          </div>
+
           <div class="flex gap-4">
             <a 
               href={content.bookLinkUs}
@@ -64,7 +61,7 @@ const bookImageSrc =
 
     <hr class="block mt-8 xl:hidden" />
 
-    <div class="prose prose-md lg:prose-lg mx-auto flex lg:flex-col flex-1 p-6">
+    <div class="prose prose-sm lg:prose-md mx-auto flex lg:flex-col flex-1 p-6">
       <div class="sticky top-16">
         <h3 class="!m-0">Recent Posts</h3>
         <ul class="!p-0">
