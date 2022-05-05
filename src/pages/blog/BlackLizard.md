@@ -1,6 +1,7 @@
 ---
-title: "The Black Lizard and Beast in the Shadows by Edogawa Ranpo (Translated by Ian Hughes)"
-date: May 26, 2022
+title: The Black Lizard and Beast in the Shadows
+author: Edogawa Ranpo (Translated by Ian Hughes)
+date: May 5, 2022
 layout: ../../layouts/BlogPost.astro
 
 bookImage: book-image-1.jpg

@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
 
-title: "Haruki Murakami: Men Without Women (2014)"
+title: Men Without Women
 date: 5/26/2022
 
 bookImage: book-image-1.jpg
