@@ -29,6 +29,8 @@ Although he points out that he never played professionally, he believes that he 
 
 Reading about his struggles and what he had to overcome in order to achieve what he went on to achieve was inspiring and earned a rapport with me immediately. I too had dreams of playing professionally, though I played soccer instead of baseball, and his story resonated with me big time. This isn’t some guy talking about habits, he lived it, and did it successfully with the results to back it up. I instantly felt my focus increase and reading the book became even easier. 
 
+---
+
 ## Next Section
 
 >The difference a tiny improvement can make over time is astounding. Here’s how the math works out: if you can get a 1 percent better each day for one year, you’ll end up thirty-seven times better by the time you’re done. Conversely, if you get 1 percent worse each day for one year, you’ll decline nearly down to zero. 

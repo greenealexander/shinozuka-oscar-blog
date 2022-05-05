@@ -1,6 +1,6 @@
 ---
 draft: true
-title: Test 3
+title: "Masks: An Attempt At Poetry"
 date: May 30, 2022
 layout: ../../layouts/BlogPost.astro
 ---
@@ -14,6 +14,8 @@ Mitsuru suggested that we write our own poems based on the same theme and see wh
 However, when she proposed that we write about masks since our prior conversations were already on this theme, I couldn’t help but smile in relief. This is a theme that I’ve thought about a lot, and two of my favorite poems, Genius of the Crowd and Bluebird, both by Charles Bukowski, are linked to this topic. I embedded a few YouTube videos that narrate my favorite poems below in the following section.
 
 I ended up writing four poems in total—three that night and four in the morning—all of which I have included below. The fourth poem was a redo of the second poem because I thought it was lacking in depth and intensity. Enjoy! And let me know your thoughts!
+
+---
 
 ## Poem #1
 
@@ -36,6 +38,8 @@ I was drilled and injected with grout,
 Once again restoring uniformity.”
 — Oscar Shinozuka, 2021
 
+---
+
 ## Poem #2
 
 “Rinse, Repeat, Rinse, Repeat.
@@ -47,6 +51,8 @@ But still, it remained.
 I stood looking at myself in the mirror,
 But only the mask remained.”
 — Oscar Shinozuka, 2021
+
+---
 
 ## Poem #3
 
@@ -64,6 +70,8 @@ I am extinguished.
 And like a candle,
 I am easily replaced.”
 — Oscar Shinozuka, 2021
+
+---
 
 ## Poem #4
 

@@ -1,10 +1,16 @@
-Edogawa Ranpo: Japanese Tales of Mystery and Imagination
+---
+title: Japanese Tales of Mystery and Imagination
+author: Edogawa Ranpo
+date: May 5, 2022
+layout: ../../layouts/BlogPost.astro
 
-Japanese Tales of Mystery and Imagination (1956) by Edogawa Ranpo 
+bookImage: book-image-1.jpg
+bookRating: 5
+bookLinkUs: https://google.com
+bookLinkJp: https://google.com
+---
 
-Amazon US | Amazon JP
-
-My Rating: 5 of 5 stars
+## Overall Review
 
 Being a devoted fan of the Detective Conan (名探偵コナン) anime series—the protagonist Edogawa Conan was named after Edogawa Ranpo (江戸川乱歩) and Sir Arthur Conan Doyle, I naturally became familiar with both legends of the mystery genre. Under the pen name of Edogawa Ranpo—derived from the Japanese pronunciation of Edgar Allan Poe, his favorite author, Hirai Taro (1894-1965), became famous for his Akechi Kogoro series and was named “the father of Japanese mystery.”  
 
@@ -28,7 +34,9 @@ For more on Edogawa Ranpo’s history and his work click here.
 
 ## The First Encounter: The Human Chair
 
-My first experience with Edogawa Ranpo’s work was sometime last year when I found an audio version of The Human Chair on YouTube. It was so creepy, and the twist at the end so unforeseen it sent chills down my spine. I thought to myself, how could someone come up with this story?, and immediately wanted more, and decided to buy this short story collection which includes this story and eight others. I have embedded both an English and a Japanese version of the The Human Chair below. Enjoy! 
+My first experience with Edogawa Ranpo’s work was sometime last year when I found an audio version of The Human Chair on YouTube. It was so creepy, and the twist at the end so unforeseen it sent chills down my spine. I thought to myself, how could someone come up with this story?, and immediately wanted more, and decided to buy this short story collection which includes this story and eight others. I have embedded the English version of the The Human Chair below. Enjoy! 
+
+<iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/jT26F-myZsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
