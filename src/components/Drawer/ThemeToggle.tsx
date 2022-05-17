@@ -7,6 +7,8 @@ interface ThemeToggleProps {
 }
 
 const ThemeToggle = (props: ThemeToggleProps) => {
+  const theme = window.localStorage.getItem("theme");
+
   createEffect(() => {
     themeChange(false);
   }, []);
@@ -16,7 +18,9 @@ const ThemeToggle = (props: ThemeToggleProps) => {
       <input type="checkbox" />
 
       <svg
-        class={`swap-on ${props.className}`}
+        class={`${theme === "dark" ? "swap-on" : "swap-off"} ${
+          props.className
+        }`}
         data-set-theme="dark"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -25,7 +29,9 @@ const ThemeToggle = (props: ThemeToggleProps) => {
       </svg>
 
       <svg
-        class={`swap-off ${props.className}`}
+        class={`${theme === "light" ? "swap-on" : "swap-off"} ${
+          props.className
+        }`}
         data-set-theme="light"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
