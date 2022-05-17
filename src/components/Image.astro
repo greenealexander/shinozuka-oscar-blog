@@ -1,0 +1,22 @@
+---
+const { imageUrl, className, alt, w, h, f, q, fit } = Astro.props;
+
+const queryParamMap = {
+  w,
+  h,
+  f,
+  q,
+  fit,
+}
+const src = imageUrl + "?" + Object.keys(queryParamMap).reduce((params, p) => {
+  if (queryParamMap[p]) {
+    params += `&${p}=${queryParamMap[p]}`;
+  }
+  return params;
+}, '')
+---
+<picture>
+  <source srcset={`${src}&fm=avif`} type="image/avif">
+  <source srcset={`${src}&fm=jpg`} type="image/jpeg">
+  <img src={`${src}&fm=jpg`} alt={alt} class={className}>
+</picture>

@@ -2,6 +2,7 @@
 import contentful from 'contentful';
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Image from '../../components/Image.astro';
 
 const contentfulClient = contentful.createClient({
   space: process.env.CONTENTFUL_SPACE,
@@ -30,11 +31,26 @@ const allPosts = await Promise.all(allPostsWithImagePromises)
 				<div class="recent-post rounded overflow-hidden lg:overflow-visible flex items-center lg:flex-col">
 					<div class="lg:relative">
 						<div class="w-[300] xl:w-[400] h-[192] overflow-hidden rounded-t">
-							<img class="blur-sm opacity-70 object-cover w-full h-full hidden lg:block" src={`${post.imageUrl}?fit=scale&f=top&w=400&h=192&fm=avif&q=10`} alt="book-cover" />
+							<Image 
+								className="blur-sm opacity-70 object-cover w-full h-full hidden lg:block" 
+								imageUrl={post.imageUrl} 
+								fit="fill"
+								f="top"
+								w={400}
+								h={192}
+								q={10}
+								alt="book-cover" 
+							/>
 						</div>
 
-						<div class="hidden lg:pl-0 md:flex w-[170px] h-[240px] lg:w-auto lg:h-auto lg:justify-center lg:absolute lg:inset-x-0 lg:-top-3">
-							<img class="w-[170px] h-[240px] overflow-hidden lg:shadow-md" src={`${post.imageUrl}?&w=170&h=240&fm=avif`} alt="book-cover" />
+						<div class="hidden pl-4 md:flex w-[170px] h-[240px] lg:w-auto lg:h-auto lg:justify-center lg:absolute lg:inset-x-0 lg:-top-3">
+							<Image 
+								className="w-[170px] h-[240px] overflow-hidden lg:shadow-md"
+								imageUrl={post.imageUrl}
+								w={170}
+								h={240}
+								alt="book-cover" 
+							/>
 						</div>
 					</div>
 

@@ -1,7 +1,7 @@
 ---
 import contentful from 'contentful';
 
-import BaseLayout from './BaseLayout.astro';
+import Image from '../components/Image.astro';
 
 const { content } = Astro.props;
 
@@ -10,7 +10,6 @@ const contentfulClient = contentful.createClient({
   accessToken: process.env.CONTENTFUL_ACCESSTOKEN,
 });
 const response = await contentfulClient.getAsset(content.bookImageId);
-const bookImageSrc = `${response.fields.file.url}?w=320&h=320&fm=avif`;
 
 const allPosts = await Astro.glob('../posts/*.md');
 const recentPostsWithImagePromises = allPosts.sort((a, b) => 
@@ -31,12 +30,13 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
       <div class="flex flex-col items-center">
         <div class="py-6 mx-auto flex flex-col items-center prose md:prose-lg lg:prose-xl ">
           <h1 class="!mb-0 text-center">{content.title}</h1>
-
-          <img 
-            src={bookImageSrc} 
+          <Image 
+            className="no-prose h-80 w-80 overflow-hidden object-scale-down"
+            imageUrl={response.fields.file.url}
+            w={320}
+            h={320}
             alt={`Book Cover`}
-            class="no-prose h-80 w-80 overflow-hidden object-scale-down"
-          >
+          />
         </div>
 
         <div class="flex gap-4">
@@ -87,7 +87,13 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
         {recentPosts.map((post) => (
           <li class="prose-sm recent-post rounded overflow-hidden flex items-center gap-4 p-4">
             <div class="flex-shrink-0 hidden md:flex w-[125px] h-[180px]">
-              <img class="!m-0 w-full h-full overflow-hidden" src={`${post.imageUrl}?&w=125&h=180&fm=avif`} alt="book-cover" />
+              <Image 
+                className="!m-0 w-full h-full overflow-hidden" 
+                imageUrl={post.imageUrl}
+                w={125} 
+                h={180}
+                alt="book-cover" 
+              />
             </div>
 
             <div class="flex flex-col gap-2">
