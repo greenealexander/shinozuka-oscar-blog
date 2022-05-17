@@ -1,100 +1,137 @@
 ---
+import contentful from 'contentful';
+
 import BaseLayout from './BaseLayout.astro';
 
 const { content } = Astro.props;
-const bookImageSrc = 
-  `https://images.ctfassets.net/gmpl42c7a7o8/5XGAxgaDGhM3LgmwejQwg3/fef9b6d523c4860ca50e9973b7ad87e9/${content.bookImage}?w=320&h=320&fm=avif`;
+
+const contentfulClient = contentful.createClient({
+  space: process.env.CONTENTFUL_SPACE,
+  accessToken: process.env.CONTENTFUL_ACCESSTOKEN,
+});
+const response = await contentfulClient.getAsset(content.bookImageId);
+const bookImageSrc = `${response.fields.file.url}?w=320&h=320&fm=avif`;
+
+const allPosts = await Astro.glob('../posts/*.md');
+const recentPostsWithImagePromises = allPosts.sort((a, b) => 
+		new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
+    .slice(0, 3).map(async post => {
+      const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
+      return {
+        ...post,
+        imageUrl: res.fields.file.url,
+        slug: post.file.split('/posts/')[1].split('.')[0],
+      }
+    });
+const recentPosts = await Promise.all(recentPostsWithImagePromises)
 ---
 
-<BaseLayout title={content.title} containerClass="">
-  <section class="flex flex-col xl:grid grid-cols-[auto_1fr] container mx-auto">
-    <article class="mx-auto xl:mx-0 px-6 prose md:prose-lg lg:prose-xl">
-        <div class="flex flex-col items-center">
-         <div class="py-6 mx-auto flex flex-col items-center prose md:prose-lg lg:prose-xl ">
-            <h1 class="!mb-0 text-center">{content.title}</h1>
+<section class="flex flex-col xl:grid grid-cols-[auto_1fr] container mx-auto">
+  <article class="mx-auto xl:mx-0 px-6 prose md:prose-lg lg:prose-xl">
+      <div class="flex flex-col items-center">
+        <div class="py-6 mx-auto flex flex-col items-center prose md:prose-lg lg:prose-xl ">
+          <h1 class="!mb-0 text-center">{content.title}</h1>
 
-            <img 
-              src={bookImageSrc} 
-              alt={`Book Cover`}
-              class="no-prose h-80 w-80 overflow-hidden object-scale-down"
-            >
+          <img 
+            src={bookImageSrc} 
+            alt={`Book Cover`}
+            class="no-prose h-80 w-80 overflow-hidden object-scale-down"
+          >
+        </div>
+
+        <div class="flex gap-4">
+          <a 
+            href={content.bookLinkUs}
+            target="_blank" 
+            rel="noopener noreferrer"
+          >Amazon US</a> | 
+          <a 
+            href={content.bookLinkJp}
+            target="_blank" 
+            rel="noopener noreferrer"
+          >Amazon JP</a>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span>My Rating:</span>
+          <div class="rating rating-md rating-half">
+            {Array.from({length: 5}).map((_, i) => (
+              <>
+                <input 
+                  type="radio" 
+                  name="rating" 
+                  class="bg-orange-400 mask mask-star-2 mask-half-1" 
+                  checked={content.rating === ((i * 2) + 1) * 0.5}
+                />
+                <input 
+                  type="radio" 
+                  name="rating" 
+                  class="bg-orange-400 mask mask-star-2 mask-half-2"
+                  checked={content.rating === ((i * 2) + 2) * 0.5}
+                />
+              </>
+            ))}
           </div>
-
-          <div class="flex gap-4">
-            <a 
-              href={content.bookLinkUs}
-              target="_blank" 
-              rel="noopener noreferrer"
-            >Amazon US</a> | 
-            <a 
-              href={content.bookLinkJp}
-              target="_blank" 
-              rel="noopener noreferrer"
-            >Amazon JP</a>
-          </div>
-
-          <div class="flex items-center gap-2">
-            <span>My Rating:</span>
-            <div class="rating rating-md rating-half">
-              {Array.from({length: 5}).map((_, i) => (
-                <>
-                  <input 
-                    type="radio" 
-                    name="rating" 
-                    class="bg-orange-400 mask mask-star-2 mask-half-1" 
-                    checked={content.bookRating === ((i * 2) + 1) * 0.5}
-                  />
-                  <input 
-                    type="radio" 
-                    name="rating" 
-                    class="bg-orange-400 mask mask-star-2 mask-half-2"
-                    checked={content.bookRating === ((i * 2) + 2) * 0.5}
-                  />
-                </>
-              ))}
-            </div>
-          </div>
-      </div>
-
-      <slot />
-    </article>
-
-    <hr class="block mt-8 xl:hidden" />
-
-    <div class="prose prose-sm lg:prose-md mx-auto flex lg:flex-col flex-1 p-6">
-      <div class="sticky top-16">
-        <h3 class="!m-0">Recent Posts</h3>
-        <ul class="!p-0">
-          {
-            [
-              'https://images.ctfassets.net/gmpl42c7a7o8/anHAn3HieuFwvCrOXlLP2/f24d80eab33e0a9e730894d038bddd95/book-image-2.jpg',
-              'https://images.contentful.com/gmpl42c7a7o8/52FOyJUiZEXNDN6EUjWJMs/e72f568f021a834267fa0c7dc56f6d18/book-image-3.jpg', 
-              'https://images.contentful.com/gmpl42c7a7o8/2BrwdDAxVrWeuxB2iO5S3V/fa78e8f3c1f0e3227980a5f6407e72c8/book-image-4.jpg',
-            ].map((imageUrl) => (
-            <li class="prose-sm recent-post rounded overflow-hidden flex items-center gap-4 p-4">
-              <div class="flex-shrink-0 hidden md:flex w-[125px] h-[180px]">
-                <img class="!m-0 w-full h-full overflow-hidden" src={`${imageUrl}?&w=125&h=180&fm=avif`} alt="book-cover" />
-              </div>
-
-              <div class="flex flex-col gap-2">
-                <div class="flex flex-col">
-                  <h2 class="!mt-0"><a class="link link-hover" href="/blog/post2">Saintes fesses d'étole de cul de sapristi de crucifix de boswell.</a></h2>
-
-                  <div class='flex flex-wrap gap-2'>
-                    <div class="badge badge-sm badge-outline">Thriller</div>
-                    <div class="badge badge-sm badge-outline">Mystery</div>
-                  </div>
-                </div>
-
-                <p class="!m-0">Enfant d'chienne de calvince de baptême de cibolac de cimonaque de mosus de Jésus de plâtre de cibouleau de sapristi de cibole de saint-ciarge.</p>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
+        </div>
     </div>
-  </section>
-</BaseLayout>
+
+    <slot />
+  </article>
+
+  <hr class="mt-14 mb-2 mx-6 xl:hidden h-[0.5px] opacity-10" />
+
+  <div class="prose prose-sm lg:prose-md mx-auto flex lg:flex-col flex-1 p-6">
+    <div class="sticky top-16">
+      <h3 class="!m-0 !mb-4 !pt-4">Recent Posts</h3>
+      <ul class="!p-0 flex flex-col gap-2">
+        {recentPosts.map((post) => (
+          <li class="prose-sm recent-post rounded overflow-hidden flex items-center gap-4 p-4">
+            <div class="flex-shrink-0 hidden md:flex w-[125px] h-[180px]">
+              <img class="!m-0 w-full h-full overflow-hidden" src={`${post.imageUrl}?&w=125&h=180&fm=avif`} alt="book-cover" />
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <div class="flex flex-col">
+                <h2 class="!mt-0"><a class="link link-hover line-clamp-1 text-ellipsis" href={'/blog/' + post.slug}>{post.frontmatter.title}</a></h2>
+
+                <div class='flex flex-wrap gap-2'>
+                  {post.frontmatter.genres?.map(genre => (
+                    <div class="badge badge-sm badge-outline">{genre}</div>
+                  ))}
+                </div>
+              </div>
+
+              <p class="!m-0 !line-clamp-3 !text-ellipsis">Enfant d'chienne de calvince de baptême de cibolac de cimonaque de mosus de Jésus de plâtre de cibouleau de sapristi de cibole de saint-ciarge.</p>
+
+              <div class="card-actions justify-between items-center">
+							<div class="rating rating-md rating-half">
+								{Array.from({length: 5}).map((_, i) => (
+									<>
+										<input 
+											type="radio" 
+											name="rating" 
+											class="bg-orange-400 mask mask-star-2 mask-half-1" 
+											checked={3.5 === ((i * 2) + 1) * 0.5}
+										/>
+										<input 
+											type="radio" 
+											name="rating" 
+											class="bg-orange-400 mask mask-star-2 mask-half-2"
+											checked={3.5 === ((i * 2) + 2) * 0.5}
+										/>
+									</>
+								))}
+							</div>
+
+							<a href={'/blog/' + post.slug} class="btn btn-sm btn-outline">Read</a>
+						</div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>
 
 <style>
 .recent-post {

@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths({ paginate }) {
+	const allPosts = await Astro.glob('../../posts/*.md');
+	const sortedPosts = allPosts.sort((a, b) => 
+		new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
+	const paginatedPosts = paginate(sortedPosts, { pageSize: 1 })
+
+	return paginatedPosts.map((page, idx) => {
+		const getData = (p) => p.props.page.data[0];
+		const getSlug = (data) => data.file.split('/posts/')[1].split('.')[0];
+		
+		const currentPageData = getData(page);
+		const slug = getSlug(currentPageData);
+
+		return {
+			...page, 
+			params: { page: slug },
+			props: {
+				page: {
+					...page.props.page,
+					url: {
+						current: '/blog/' + slug,
+						prev: idx === 0 
+							? undefined 
+							: '/blog/' + getSlug(getData(paginatedPosts[idx - 1])),
+						next:  idx === paginatedPosts.length - 1 
+							? undefined 
+							: '/blog/' + getSlug(getData(paginatedPosts[idx + 1])),
+					}
+				}
+			}
+		}
+	})
+}
+
+// const { canonicalURL } = Astro;
+const { page } = Astro.props;
+
+const Article = page.data[0].Content;
+---
+
+<BaseLayout title={page.data[0].frontmatter.title} containerClass="">
+	<Article />
+</BaseLayout>
