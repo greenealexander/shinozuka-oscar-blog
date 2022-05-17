@@ -16,11 +16,7 @@ const ThemeToggle = (props: ThemeToggleProps) => {
       <input type="checkbox" />
 
       <svg
-        class={`${
-          (localStorage.getItem("theme") ?? "light") === "dark"
-            ? "swap-on"
-            : "swap-off"
-        } ${props.className}`}
+        class={`swap-on ${props.className}`}
         data-set-theme="dark"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -29,11 +25,7 @@ const ThemeToggle = (props: ThemeToggleProps) => {
       </svg>
 
       <svg
-        class={`${
-          (localStorage.getItem("theme") ?? "light") === "light"
-            ? "swap-on"
-            : "swap-off"
-        } ${props.className}`}
+        class={`swap-off ${props.className}`}
         data-set-theme="light"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
