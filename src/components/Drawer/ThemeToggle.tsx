@@ -17,7 +17,9 @@ const ThemeToggle = (props: ThemeToggleProps) => {
 
       <svg
         class={`${
-          localStorage.getItem("theme") === "dark" ? "swap-on" : "swap-off"
+          (localStorage.getItem("theme") ?? "light") === "dark"
+            ? "swap-on"
+            : "swap-off"
         } ${props.className}`}
         data-set-theme="dark"
         xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +30,9 @@ const ThemeToggle = (props: ThemeToggleProps) => {
 
       <svg
         class={`${
-          localStorage.getItem("theme") === "light" ? "swap-on" : "swap-off"
+          (localStorage.getItem("theme") ?? "light") === "light"
+            ? "swap-on"
+            : "swap-off"
         } ${props.className}`}
         data-set-theme="light"
         xmlns="http://www.w3.org/2000/svg"
