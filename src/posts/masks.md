@@ -2,12 +2,13 @@
 draft: true
 title: "Masks: An Attempt At Poetry"
 date: May 30, 2022
-layout: ../../layouts/BlogPost.astro
+layout: ../layouts/BlogPost.astro
+genres: ["Fiction", "Short Story Collection"]
+
+bookImageId: 52FOyJUiZEXNDN6EUjWJMs
 ---
 
-## Masks: An Attempt At Poetry
-
-I've been convinced by Mitsuru (@AkaiGeisha on Twitter) to try writing some poetry. I've always been indifferent to poetry. I’ve never been a huge reader of poetry because I found poems hard to comprehend during my younger years in grade school. But as I've gotten older and had more experiences, I've started to understand them a little better. So, here goes.
+I've been convinced by Mitsuru ([@BlueShirabyoshi](https://twitter.com/BlueShirabyoshi) on Twitter) to try writing some poetry. I've always been indifferent to poetry. I’ve never been a huge reader of poetry because I found poems hard to comprehend during my younger years in grade school. But as I've gotten older and had more experiences, I've started to understand them a little better. So, here goes.
 
 Mitsuru suggested that we write our own poems based on the same theme and see what happens. To say I was nervous is an understatement. I haven’t written anything poetic since my failed attempt at writing a rap song—which remains unfinished.
 

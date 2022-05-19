@@ -1,5 +1,26 @@
 ---
+import contentful from 'contentful';
+
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Image from '../components/Image.astro';
+
+const contentfulClient = contentful.createClient({
+  space: process.env.CONTENTFUL_SPACE,
+  accessToken: process.env.CONTENTFUL_ACCESSTOKEN,
+});
+
+const allPosts = await Astro.glob('../posts/*.md');
+const recentPostsWithImagePromises = allPosts.sort((a, b) => 
+		new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
+    .slice(0, 3).map(async post => {
+      const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
+      return {
+        ...post,
+        imageUrl: res.fields.file.url,
+				slug: post.file.split('/posts/')[1].split('.')[0],
+      }
+    });
+const recentPosts = await Promise.all(recentPostsWithImagePromises)
 ---
 
 <BaseLayout title='Home' containerClass="">
@@ -27,38 +48,52 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 		<h2 class="text-4xl mb-8 font-semibold">Recent Posts</h2>
 
 		<div class="container mx-auto flex flex-col justify-center gap-8 lg:grid lg:grid-cols-[300px_300px_300px] xl:grid-cols-[400px_400px_400px] lg:pt-3">
-			{
-				[
-					'https://images.ctfassets.net/gmpl42c7a7o8/anHAn3HieuFwvCrOXlLP2/f24d80eab33e0a9e730894d038bddd95/book-image-2.jpg',
-					'https://images.contentful.com/gmpl42c7a7o8/52FOyJUiZEXNDN6EUjWJMs/e72f568f021a834267fa0c7dc56f6d18/book-image-3.jpg', 
-					'https://images.contentful.com/gmpl42c7a7o8/2BrwdDAxVrWeuxB2iO5S3V/fa78e8f3c1f0e3227980a5f6407e72c8/book-image-4.jpg',
-				].map((imageUrl) => (
+			{recentPosts.map((post) => (
 				<div class="recent-post rounded overflow-hidden lg:overflow-visible flex items-center lg:flex-col">
 					<div class="lg:relative">
 						<div class="w-[300] xl:w-[400] h-[192] overflow-hidden rounded-t">
-							<img class="blur-sm opacity-70 object-cover w-full h-full hidden lg:block" src={`${imageUrl}?fit=scale&f=top&w=300&h=192&fm=avif&q=10`} alt="book-cover" />
+							<Image 
+								className="blur-sm opacity-70 object-cover w-full h-full hidden lg:block" 
+								imageUrl={post.imageUrl} 
+								fit="fill"
+								f="top"
+								w={400}
+								h={192}
+								q={10}
+								alt="book-cover" 
+							/>
 						</div>
 
-						<div class="hidden pl-4 lg:pl-0 md:flex w-[170px] h-[240px] lg:w-auto lg:h-auto lg:justify-center lg:absolute lg:inset-x-0 lg:-top-3">
-							<img class="w-[170px] h-[240px] overflow-hidden lg:rounded-sm lg:shadow-md" src={`${imageUrl}?&w=170&h=240&fm=avif`} alt="book-cover" />
+						<div class="hidden pl-4 md:flex w-[170px] h-[240px] lg:w-auto lg:h-auto lg:justify-center lg:absolute lg:inset-x-0 lg:-top-3">
+							<Image 
+								className="w-[170px] h-[240px] overflow-hidden lg:shadow-md"
+								imageUrl={post.imageUrl}
+								w={170}
+								h={240}
+								alt="book-cover" 
+							/>
 						</div>
 					</div>
 
 					<div class="card-body">
 						<div class="flex flex-col">
-							<h2 class="card-title lg:mt-4">Saintes fesses d'étole de cul de sapristi de crucifix de boswell.</h2>
+							<div class="h-14 flex flex-col justify-end lg:mt-16 xl:mt-4">
+								<h2 class="card-title line-clamp-2 text-ellipsis leading-7 ">{post.frontmatter.title}</h2>
+							</div>
 							<div class='flex flex-wrap gap-2 py-2 lg:hidden'>
-								<div class="badge badge-sm badge-outline">Thriller</div>
-								<div class="badge badge-sm badge-outline">Mystery</div>
+								{post.frontmatter.genres?.map(genre => (
+									<div class="badge badge-sm badge-outline">{genre}</div>
+								))}
 							</div>
 						</div>
 
 						<div class='hidden lg:flex lg:flex-wrap lg:gap-2 lg:mb-2'>
-							<div class="badge badge-sm badge-outline">Thriller</div>
-							<div class="badge badge-sm badge-outline">Mystery</div>
+							{post.frontmatter.genres?.map(genre => (
+								<div class="badge badge-sm badge-outline">{genre}</div>
+							))}
 						</div>
 
-						<p>Enfant d'chienne de calvince de baptême de cibolac de cimonaque de mosus de Jésus de plâtre de cibouleau de sapristi de cibole de saint-ciarge.</p>
+						<p class="line-clamp-3 xl:line-clamp-4 text-ellipsis">Enfant d'chienne de calvince de baptême de cibolac de cimonaque de mosus de Jésus de plâtre de cibouleau de sapristi de cibole de saint-ciarge. Sacristi de saintes fesses de mosus de câlique de charrue d'étole de crucifix d'enfant d'chienne de cimonaque.</p>
 
 						<div class="card-actions justify-between items-center">
 							<div class="rating rating-md rating-half">
@@ -80,7 +115,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 								))}
 							</div>
 
-							<a href="/blog/post1" class="btn btn-sm btn-outline">Read</a>
+							<a href={'/blog/' + post.slug} class="btn btn-sm btn-outline">Read</a>
 						</div>
 					</div>
 				</div>

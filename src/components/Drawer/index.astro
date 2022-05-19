@@ -41,15 +41,14 @@ const linkMap: LinkMap = new Map([
           </div>
 
           <div class="navbar-end flex gap-4 pr-4">
-            <!-- <Search client:idle /> -->
-            <ThemeToggle client:idle className="icon" />
+            <ThemeToggle client:load className="social-icon" />
 
             <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-              <DiscordIcon className="icon" />
+              <DiscordIcon className="social-icon" />
             </a>
 
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <TwitterIcon className="icon" />
+              <TwitterIcon className="social-icon" />
             </a>
           </div>
         </div>
@@ -67,26 +66,3 @@ const linkMap: LinkMap = new Map([
     </ul>
   </nav>
 </div> 
-
-<style>
-a {
-  @apply link link-hover rounded-lg;
-}
-
-header {
-  background-color: hsl(var(--b1));
-  @apply shadow-md;
-}
-
-ul {
-  background-color: hsl(var(--b1));
-}
-
-.drawer-side ul {
-  @apply rounded-b-lg;
-}
-
-.icon {
-  @apply h-6 w-6 fill-current;
-}
-</style>

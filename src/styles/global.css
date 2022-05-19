@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  background-color: hsl(var(--b2));
-}
-
 :root {
   --color-mark: #5468ff;
   --color-background: #fff;
@@ -16,13 +11,28 @@ body {
   --color-source-icon: rgba(80, 80, 80, 0.32);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-mark: #fff;
-    --color-background: #23263b;
-    --color-selected: #111432;
-    --color-text: #d6d6e7;
-    --color-input-icon: rgba(var(--aa-primary-color-rgb), 1);
-    --color-source-icon: #d6d6e777;
-  }
+html,
+body {
+  background-color: hsl(var(--b2));
+}
+
+footer {
+  background-color: hsl(var(--b2));
+}
+
+header {
+  background-color: hsl(var(--b1));
+  @apply shadow-md;
+}
+
+nav > ul {
+  background-color: hsl(var(--b1));
+}
+
+.drawer-side ul {
+  @apply rounded-b-lg;
+}
+
+.social-icon {
+  @apply h-6 w-6 fill-current;
 }

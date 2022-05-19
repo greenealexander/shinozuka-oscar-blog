@@ -1,11 +1,12 @@
 ---
-layout: ../../layouts/BlogPost.astro
+layout: ../layouts/BlogPost.astro
 
 title: Men Without Women
 date: 5/26/2022
+genres: ["Fiction", "Short Story Collection"]
 
-bookImage: book-image-1.jpg
-bookRating: 4
+bookImageId: 52FOyJUiZEXNDN6EUjWJMs
+rating: 4
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
 ---
