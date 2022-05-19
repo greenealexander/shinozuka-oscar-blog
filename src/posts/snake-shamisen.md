@@ -5,7 +5,7 @@ date: May 5, 2022
 layout: ../layouts/BlogPost.astro
 genres: ["Fiction", "Short Story Collection"]
 
-bookImageId: 52FOyJUiZEXNDN6EUjWJMs
+bookImageId: 3MsbFpci9zMbfqRancQSVC
 rating: 3
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

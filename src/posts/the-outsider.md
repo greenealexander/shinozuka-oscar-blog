@@ -4,7 +4,7 @@ author: Stephen King
 layout: ../layouts/BlogPost.astro
 genres: ["Fiction", "Short Story Collection"]
 
-bookImageId: 52FOyJUiZEXNDN6EUjWJMs
+bookImageId: 3MsbFpci9zMbfqRancQSVC
 rating: 3.5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

@@ -6,7 +6,7 @@ layout: ../layouts/BlogPost.astro
 rating: 3
 genres: ["Fiction", "Short Story Collection"]
 
-bookImageId: 52FOyJUiZEXNDN6EUjWJMs
+bookImageId: 3MsbFpci9zMbfqRancQSVC
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
 ---
