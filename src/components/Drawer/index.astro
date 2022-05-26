@@ -1,7 +1,7 @@
 ---
 // import Search from './Search.tsx';
 import ThemeToggle from './ThemeToggle.tsx';
-import { TwitterIcon, DiscordIcon, DrawerIcon } from '../icons/index';
+import { TwitterIcon, DrawerIcon } from '../icons/index';
 import Links, { LinkMap } from './Links';
 
 const { title } = Astro.props;
@@ -43,11 +43,7 @@ const linkMap: LinkMap = new Map([
           <div class="navbar-end flex gap-4 pr-4">
             <ThemeToggle client:load className="social-icon" />
 
-            <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
-              <DiscordIcon className="social-icon" />
-            </a>
-
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/shinozukaoscar" target="_blank" rel="noopener noreferrer">
               <TwitterIcon className="social-icon" />
             </a>
           </div>

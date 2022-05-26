@@ -5,7 +5,7 @@ date: May 30, 2022
 layout: ../layouts/BlogPost.astro
 genres: ["Fiction", "Short Story Collection"]
 
-bookImageId: 52FOyJUiZEXNDN6EUjWJMs
+bookImageId: 3MsbFpci9zMbfqRancQSVC
 ---
 
 I've been convinced by Mitsuru ([@BlueShirabyoshi](https://twitter.com/BlueShirabyoshi) on Twitter) to try writing some poetry. I've always been indifferent to poetry. I’ve never been a huge reader of poetry because I found poems hard to comprehend during my younger years in grade school. But as I've gotten older and had more experiences, I've started to understand them a little better. So, here goes.
