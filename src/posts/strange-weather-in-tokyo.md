@@ -4,6 +4,7 @@ author: Hiromi Kawakami
 date: May 5, 2022
 layout: ../layouts/BlogPost.astro
 
+genres: ["Fiction"]
 bookImage: book-image-1.jpg
 bookRating: 5
 bookLinkUs: https://google.com

@@ -12,11 +12,19 @@ const contentfulClient = contentful.createClient({
 const allPostsWithImagePromises = (await Astro.glob('../../posts/*.md'))
 	.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
 	.map(async post => {
-		const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
-		return {
-			...post,
-			imageUrl: res.fields.file.url,
-			slug: post.file.split('/posts/')[1].split('.')[0],
+		try {
+			const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
+			return {
+				...post,
+				imageUrl: res.fields.file.url,
+				slug: post.file.split('/posts/')[1].split('.')[0],
+			}
+		} catch {
+			return {
+				...post,
+				imageUrl: '/images/placeholder.webp',
+				slug: post.file.split('/posts/')[1].split('.')[0],
+			}
 		}
 	});
 const allPosts = await Promise.all(allPostsWithImagePromises)
@@ -30,7 +38,7 @@ const allPosts = await Promise.all(allPostsWithImagePromises)
 			{allPosts.map((post) => (
 				<div class="recent-post rounded overflow-hidden lg:overflow-visible flex items-center lg:flex-col">
 					<div class="lg:relative">
-						<div class="w-[300] xl:w-[400] h-[192] overflow-hidden rounded-t">
+						<div class="w-[300px] xl:w-[400px] h-[192px] overflow-hidden rounded-t">
 							<Image 
 								className="blur-sm opacity-70 object-cover w-full h-full hidden lg:block" 
 								imageUrl={post.imageUrl} 

@@ -9,19 +9,35 @@ const contentfulClient = contentful.createClient({
   space: process.env.CONTENTFUL_SPACE,
   accessToken: process.env.CONTENTFUL_ACCESSTOKEN,
 });
-const response = await contentfulClient.getAsset(content.bookImageId);
+let imageUrl: string;
+
+try {
+  const response = await contentfulClient.getAsset(content.bookImageId);
+  imageUrl = response.fields.file.url
+} catch {
+  imageUrl = '/images/placeholder.webp'
+}
 
 const allPosts = await Astro.glob('../posts/*.md');
-const recentPostsWithImagePromises = allPosts.sort((a, b) => 
-		new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
-    .slice(0, 3).map(async post => {
+const recentPostsWithImagePromises = allPosts
+  .sort((a, b) =>	new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
+  .slice(0, 3)
+  .map(async post => {
+    try {
       const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
       return {
         ...post,
         imageUrl: res.fields.file.url,
         slug: post.file.split('/posts/')[1].split('.')[0],
       }
-    });
+    } catch {
+      return {
+        ...post,
+        imageUrl: '/images/placeholder.webp',
+        slug: post.file.split('/posts/')[1].split('.')[0],
+      }
+    }
+  });
 const recentPosts = await Promise.all(recentPostsWithImagePromises)
 ---
 
@@ -32,7 +48,7 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
           <h1 class="!mb-0 text-center">{content.title}</h1>
           <Image 
             className="no-prose h-80 w-80 overflow-hidden object-scale-down"
-            imageUrl={response.fields.file.url}
+            imageUrl={imageUrl}
             w={320}
             h={320}
             alt={`Book Cover`}
