@@ -1,10 +1,11 @@
 ---
 title: The Outsider
 author: Stephen King
+date: 12/21/2020
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Crime Fiction", "Horror Fiction", "Suspense" ]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 5vXxg11B81nufSIM0yQR3a
 rating: 3.5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

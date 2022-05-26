@@ -1,11 +1,11 @@
 ---
 title: "The Burden of the Past: Problems of Historical Perception in Japan-Korea Relations"
 author: Kan Kimura (Translated by Marie Speed)
-date: May 5, 2022
+date: 4/11/2021
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Case Studies", "Non-Fiction"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 35ziYY2k5dOSAd6H7BeryZ
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

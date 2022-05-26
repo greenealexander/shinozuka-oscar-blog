@@ -1,11 +1,11 @@
 ---
 title: Tokyo Vice
 author: Jake Adelstein
-date: May 5, 2022
+date: 1/19/2021
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Non-Fiction"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 6EFfZ2eIKpfIfktOxAGXcr
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

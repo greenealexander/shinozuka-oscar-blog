@@ -1,11 +1,11 @@
 ---
 title: Murder On Bamboo Lane by Naomi Hirahara
 author: Naomi Hirahara
-date: May 5, 2022
+date: 5/5/2021
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Cozy Mystery", "Crime Fiction"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 4RaVvMlt4LdStADe47uhfd
 rating: 3
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

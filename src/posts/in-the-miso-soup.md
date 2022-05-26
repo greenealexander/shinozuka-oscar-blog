@@ -1,11 +1,11 @@
 ---
 title: In The Miso Soup
 author: Ryu Murakami
-date: May 5, 2022
+date: 2/15/2021
 layout: ../layouts/BlogPost.astro
 genres: ["Fiction", "Short Story Collection"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 1tG1nKs1qGayGNfsujbf05
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

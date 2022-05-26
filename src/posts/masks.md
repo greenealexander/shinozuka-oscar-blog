@@ -1,11 +1,11 @@
 ---
 draft: true
 title: "Masks: An Attempt At Poetry"
-date: May 30, 2022
+date: 5/6/21
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Personal Work"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 9KXuuZjw3dmqbLGJ5g5Z1
 ---
 
 I've been convinced by Mitsuru ([@BlueShirabyoshi](https://twitter.com/BlueShirabyoshi) on Twitter) to try writing some poetry. I've always been indifferent to poetry. I’ve never been a huge reader of poetry because I found poems hard to comprehend during my younger years in grade school. But as I've gotten older and had more experiences, I've started to understand them a little better. So, here goes.

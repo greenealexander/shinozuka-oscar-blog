@@ -1,9 +1,9 @@
 ---
 title: The Bourne Identity
 author: Robert Ludlum
-date: May 5, 2022
+date: 12/24/2020
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Crime Fiction", "Thriller"]
 
 bookImageId: 3MsbFpci9zMbfqRancQSVC
 rating: 5

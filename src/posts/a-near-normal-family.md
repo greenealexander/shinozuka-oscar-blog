@@ -1,11 +1,11 @@
 ---
 title: A Nearly Normal Family
 author: M. T. Edvardsson
-date: May 5, 2022
+date: 12/28/2020
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Thriller", "Suspense", "Psychological Fiction"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 4H6Yv3HLbPhHofKLzJRkrP
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

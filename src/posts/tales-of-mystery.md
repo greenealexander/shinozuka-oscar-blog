@@ -1,11 +1,11 @@
 ---
 title: Japanese Tales of Mystery and Imagination
 author: Edogawa Ranpo
-date: May 5, 2022
+date: 1/29/2021
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Mystery", "Horror", "Short Story Collection"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 2F4mvnIYG8DWYZXjFTDmjB
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

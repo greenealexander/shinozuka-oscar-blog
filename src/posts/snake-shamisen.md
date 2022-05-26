@@ -1,11 +1,11 @@
 ---
 title: Snakeskin Shamisen
 author: Naomi Hirahara
-date: May 5, 2022
+date: 3/29/2021
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Cozy Mystery", "Crime Fiction"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 3vaIn9Zh7gvYQAVUiYKKI3
 rating: 3
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

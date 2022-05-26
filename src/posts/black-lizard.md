@@ -1,19 +1,18 @@
 ---
 title: The Black Lizard and Beast in the Shadows
 author: Edogawa Ranpo (Translated by Ian Hughes)
-date: May 5, 2022
+date: 5/2/2021
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Mystery"]
+Published: 1988 (original 1984)
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 7LSYCOZNxbxfJN5JUyXFdZ
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
 ---
 
-Published: 1988 (original 1984)
 
-Genre: Mystery, Literary Fiction
 
 ## Overall Review
 

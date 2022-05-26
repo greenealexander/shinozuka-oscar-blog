@@ -1,11 +1,11 @@
 ---
 title: "Samurai Revolution: The Dawn of Modern Japan Seen Through the Eyes of the Shogun's Last Samurai"
 author: Romulus Hillsborough
-date: May 5, 2022
+date: 1/19/2021
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Non-Fiction", "History"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 53woiq1bNdRb2A89qy1iar
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
