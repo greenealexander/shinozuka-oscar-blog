@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import books from './data.json';
+
+const sections = books
+  .sort((lhs, rhs) => lhs.title.localeCompare(rhs.title))
+  .reduce((map, book) => {
+    if (map[book.section]) {
+      map[book.section].push(book);
+    } else {
+      map[book.section] = [book]
+    }
+
+    return map;
+  }, {})
+const sortedSectionNames = Object.keys(sections).sort((lhs, rhs) => lhs.localeCompare(rhs));
+---
+
+<BaseLayout 
+  title="Book Recommendations" 
+  containerClass="container mx-auto p-2 px-4 grid gap-4 grid-rows-[auto_1fr] grid-cols-1 lg:grid-rows-1 lg:grid-cols-[1fr_auto]"
+>
+  <div class="row-start-2 lg:row-start-auto lg:col-start-1">
+    {sortedSectionNames.map((name, i) => (
+      <section>
+        <div id={name} class={'relative ' + (i === 0 ? '' : 'pt-16')}>
+          <div class={'absolute inset-0 flex items-center ' + (i === 0 ? '' : 'top-16')}>
+            <hr class="w-full opacity-25" />
+          </div>
+          
+          <div class="relative flex justify-center">
+            <h3 class="text-2xl w-auto bg-theme-2 px-2">{name}</h3>
+          </div>
+        </div>
+
+        <ol>
+          {sections[name].map((book, i) => (
+            <li>
+              {i+1}. <a class="link" href={book.url}>{book.title}</a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+
+    <div class="relative mt-16 p-3 border border-yellow-600 rounded-lg">
+      <div class="absolute inset-0 bg-yellow-600 opacity-5"></div>
+      <span class="absolute -top-3 bg-theme-2 px-2 text-yellow-600">Disclaimer</span>
+      <p>I am a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</p>
+    </div>
+  </div>
+
+  <div class="prose lg:col-start-2">
+    <h3>Genres</h3>
+
+    <nav>
+      <ul class="list-none">
+        {sortedSectionNames.map(name => (
+          <li>
+            <a href={`#${name}`}>{name}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</BaseLayout>
