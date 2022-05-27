@@ -6,7 +6,7 @@ layout: ../layouts/BlogPost.astro
 
 genres: ["Fiction"]
 bookImage: book-image-1.jpg
-bookRating: 5
+rating: 1
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
 ---

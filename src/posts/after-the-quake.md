@@ -3,9 +3,9 @@ title: After the Quake
 author: Haruki Murakami
 date: 2/22/2021
 layout: ../layouts/BlogPost.astro
-rating: 3
 genres: ["Fiction", "Short Story Collection"]
 
+rating: 3
 bookImageId: 31ceNzEXSnMg9nFBk38GxS
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

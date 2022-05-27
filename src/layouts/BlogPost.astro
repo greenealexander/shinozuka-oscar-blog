@@ -2,6 +2,7 @@
 import contentful from 'contentful';
 
 import Image from '../components/Image.astro';
+import Rating from '../components/Rating.tsx';
 
 const { content } = Astro.props;
 
@@ -71,22 +72,7 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
         <div class="flex items-center gap-2">
           <span>My Rating:</span>
           <div class="rating rating-md rating-half">
-            {Array.from({length: 5}).map((_, i) => (
-              <>
-                <input 
-                  type="radio" 
-                  name="rating" 
-                  class="bg-orange-400 mask mask-star-2 mask-half-1" 
-                  checked={content.rating === ((i * 2) + 1) * 0.5}
-                />
-                <input 
-                  type="radio" 
-                  name="rating" 
-                  class="bg-orange-400 mask mask-star-2 mask-half-2"
-                  checked={content.rating === ((i * 2) + 2) * 0.5}
-                />
-              </>
-            ))}
+            <Rating rating={content.rating} name={content.bookImageId} />
           </div>
         </div>
     </div>
@@ -127,22 +113,7 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
 
               <div class="card-actions justify-between items-center">
 							<div class="rating rating-md rating-half">
-								{Array.from({length: 5}).map((_, i) => (
-									<>
-										<input 
-											type="radio" 
-											name="rating" 
-											class="bg-orange-400 mask mask-star-2 mask-half-1" 
-											checked={3.5 === ((i * 2) + 1) * 0.5}
-										/>
-										<input 
-											type="radio" 
-											name="rating" 
-											class="bg-orange-400 mask mask-star-2 mask-half-2"
-											checked={3.5 === ((i * 2) + 2) * 0.5}
-										/>
-									</>
-								))}
+								<Rating rating={post.frontmatter.rating} name={post.frontmatter.bookImageId} />
 							</div>
 
 							<a href={'/blog/' + post.slug} class="btn btn-sm btn-outline">Read</a>
