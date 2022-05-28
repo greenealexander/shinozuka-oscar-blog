@@ -22,11 +22,26 @@ footer {
 
 header {
   background-color: hsl(var(--b1));
-  @apply shadow-md;
+  @apply shadow-sm;
 }
 
-nav > ul {
+header ~ nav > ul {
   background-color: hsl(var(--b1));
+}
+
+.bg-theme {
+  background-color: hsl(var(--b1));
+}
+
+.bg-theme-2 {
+  background-color: hsl(var(--b2));
+}
+
+.bionic {
+  @apply font-light;
+}
+.bionic .b {
+  @apply font-semibold;
 }
 
 .drawer-side ul {

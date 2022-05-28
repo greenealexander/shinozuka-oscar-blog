@@ -1,5 +1,4 @@
 const Rating = (props: { rating: number; name: string }) => {
-  console.log(typeof props.rating);
   return (
     <div class="rating rating-md rating-half">
       {Array.from({ length: 5 }).map((_, i) => {
