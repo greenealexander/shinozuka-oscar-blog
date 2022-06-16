@@ -2,6 +2,7 @@
 import contentful from 'contentful';
 
 import Image from '../components/Image.astro';
+import Rating from '../components/Rating.tsx';
 
 const { content } = Astro.props;
 
@@ -9,19 +10,35 @@ const contentfulClient = contentful.createClient({
   space: process.env.CONTENTFUL_SPACE,
   accessToken: process.env.CONTENTFUL_ACCESSTOKEN,
 });
-const response = await contentfulClient.getAsset(content.bookImageId);
+let imageUrl: string;
+
+try {
+  const response = await contentfulClient.getAsset(content.bookImageId);
+  imageUrl = response.fields.file.url
+} catch {
+  imageUrl = '/images/placeholder.webp'
+}
 
 const allPosts = await Astro.glob('../posts/*.md');
-const recentPostsWithImagePromises = allPosts.sort((a, b) => 
-		new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
-    .slice(0, 3).map(async post => {
+const recentPostsWithImagePromises = allPosts
+  .sort((a, b) =>	new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
+  .slice(0, 3)
+  .map(async post => {
+    try {
       const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
       return {
         ...post,
         imageUrl: res.fields.file.url,
         slug: post.file.split('/posts/')[1].split('.')[0],
       }
-    });
+    } catch {
+      return {
+        ...post,
+        imageUrl: '/images/placeholder.webp',
+        slug: post.file.split('/posts/')[1].split('.')[0],
+      }
+    }
+  });
 const recentPosts = await Promise.all(recentPostsWithImagePromises)
 ---
 
@@ -32,7 +49,7 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
           <h1 class="!mb-0 text-center">{content.title}</h1>
           <Image 
             className="no-prose h-80 w-80 overflow-hidden object-scale-down"
-            imageUrl={response.fields.file.url}
+            imageUrl={imageUrl}
             w={320}
             h={320}
             alt={`Book Cover`}
@@ -55,22 +72,7 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
         <div class="flex items-center gap-2">
           <span>My Rating:</span>
           <div class="rating rating-md rating-half">
-            {Array.from({length: 5}).map((_, i) => (
-              <>
-                <input 
-                  type="radio" 
-                  name="rating" 
-                  class="bg-orange-400 mask mask-star-2 mask-half-1" 
-                  checked={content.rating === ((i * 2) + 1) * 0.5}
-                />
-                <input 
-                  type="radio" 
-                  name="rating" 
-                  class="bg-orange-400 mask mask-star-2 mask-half-2"
-                  checked={content.rating === ((i * 2) + 2) * 0.5}
-                />
-              </>
-            ))}
+            <Rating rating={content.rating} name={content.bookImageId} />
           </div>
         </div>
     </div>
@@ -85,20 +87,23 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
       <h3 class="!m-0 !mb-4 !pt-4">Recent Posts</h3>
       <ul class="!p-0 flex flex-col gap-2">
         {recentPosts.map((post) => (
-          <li class="prose-sm recent-post rounded overflow-hidden flex items-center gap-4 p-4">
-            <div class="flex-shrink-0 hidden md:flex w-[125px] h-[180px]">
+          <li class="prose-sm rounded overflow-hidden flex items-center gap-4 p-4">
+            <div class="-ml-4 md:ml-0 flex-shrink-0 w-[125px] h-[180px]">
               <Image 
                 className="!m-0 w-full h-full overflow-hidden" 
                 imageUrl={post.imageUrl}
                 w={125} 
                 h={180}
-                alt="book-cover" 
+                alt="book-cover"
               />
             </div>
 
             <div class="flex flex-col gap-2">
               <div class="flex flex-col">
-                <h2 class="!mt-0"><a class="link link-hover line-clamp-1 text-ellipsis" href={'/blog/' + post.slug}>{post.frontmatter.title}</a></h2>
+                <h2 class="!mt-0">
+                  <a class="link line-clamp-2 text-ellipsis sm:hidden" href={'/blog/' + post.slug}>{post.frontmatter.title}</a>
+                  <span class="hidden sm:inline-block">{post.frontmatter.title}</span>
+                </h2>
 
                 <div class='flex flex-wrap gap-2'>
                   {post.frontmatter.genres?.map(genre => (
@@ -109,28 +114,13 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
 
               <p class="!m-0 !line-clamp-3 !text-ellipsis">Enfant d'chienne de calvince de baptême de cibolac de cimonaque de mosus de Jésus de plâtre de cibouleau de sapristi de cibole de saint-ciarge.</p>
 
-              <div class="card-actions justify-between items-center">
-							<div class="rating rating-md rating-half">
-								{Array.from({length: 5}).map((_, i) => (
-									<>
-										<input 
-											type="radio" 
-											name="rating" 
-											class="bg-orange-400 mask mask-star-2 mask-half-1" 
-											checked={3.5 === ((i * 2) + 1) * 0.5}
-										/>
-										<input 
-											type="radio" 
-											name="rating" 
-											class="bg-orange-400 mask mask-star-2 mask-half-2"
-											checked={3.5 === ((i * 2) + 2) * 0.5}
-										/>
-									</>
-								))}
-							</div>
+              <div class="hidden sm:flex card-actions justify-between items-center">
+                <div class="rating rating-md rating-half">
+                  <Rating rating={post.frontmatter.rating} name={post.frontmatter.bookImageId} />
+                </div>
 
-							<a href={'/blog/' + post.slug} class="btn btn-sm btn-outline">Read</a>
-						</div>
+                <a href={'/blog/' + post.slug} class="btn btn-sm btn-outline">Read</a>
+              </div>
             </div>
           </li>
         ))}
@@ -138,9 +128,3 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
     </div>
   </div>
 </section>
-
-<style>
-.recent-post {
-	background-color: hsl(var(--b1));
-}
-</style>

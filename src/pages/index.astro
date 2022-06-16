@@ -3,6 +3,7 @@ import contentful from 'contentful';
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Image from '../components/Image.astro';
+import Rating from '../components/Rating.tsx';
 
 const contentfulClient = contentful.createClient({
   space: process.env.CONTENTFUL_SPACE,
@@ -10,16 +11,25 @@ const contentfulClient = contentful.createClient({
 });
 
 const allPosts = await Astro.glob('../posts/*.md');
-const recentPostsWithImagePromises = allPosts.sort((a, b) => 
-		new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
-    .slice(0, 3).map(async post => {
-      const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
-      return {
-        ...post,
-        imageUrl: res.fields.file.url,
+const recentPostsWithImagePromises = allPosts
+	.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
+	.slice(0, 3)
+	.map(async post => {
+		try {
+			const res = await contentfulClient.getAsset(post.frontmatter.bookImageId);
+			return {
+				...post,
+				imageUrl: res.fields.file.url,
 				slug: post.file.split('/posts/')[1].split('.')[0],
-      }
-    });
+			}
+		} catch {
+			return {
+				...post,
+				imageUrl: '/images/placeholder.webp',
+				slug: post.file.split('/posts/')[1].split('.')[0],
+			}
+		}
+	});
 const recentPosts = await Promise.all(recentPostsWithImagePromises)
 ---
 
@@ -47,11 +57,11 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
 	<section class='py-12 flex flex-col gap-4 items-center'>
 		<h2 class="text-4xl mb-8 font-semibold">Recent Posts</h2>
 
-		<div class="container mx-auto flex flex-col justify-center gap-8 lg:grid lg:grid-cols-[300px_300px_300px] xl:grid-cols-[400px_400px_400px] lg:pt-3">
+		<div class="container mx-auto px-4 flex flex-col justify-center gap-8 lg:grid lg:grid-cols-[300px_300px_300px] xl:grid-cols-[400px_400px_400px] lg:pt-3">
 			{recentPosts.map((post) => (
 				<div class="recent-post rounded overflow-hidden lg:overflow-visible flex items-center lg:flex-col">
 					<div class="lg:relative">
-						<div class="w-[300] xl:w-[400] h-[192] overflow-hidden rounded-t">
+						<div class="hidden lg:block w-[300px] xl:w-[400px] h-[192px] overflow-hidden rounded-t">
 							<Image 
 								className="blur-sm opacity-70 object-cover w-full h-full hidden lg:block" 
 								imageUrl={post.imageUrl} 
@@ -64,9 +74,9 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
 							/>
 						</div>
 
-						<div class="hidden pl-4 md:flex w-[170px] h-[240px] lg:w-auto lg:h-auto lg:justify-center lg:absolute lg:inset-x-0 lg:-top-3">
+						<div class="flex pl-4 w-[120px] h-[170px] sm:w-[170px] sm:h-[240px] lg:w-auto lg:h-auto lg:justify-center lg:absolute lg:inset-x-0 lg:-top-3">
 							<Image 
-								className="w-[170px] h-[240px] overflow-hidden lg:shadow-md"
+								className="w-[120px] h-[170px] sm:w-[170px] sm:h-[240px] overflow-hidden lg:shadow-md"
 								imageUrl={post.imageUrl}
 								w={170}
 								h={240}
@@ -75,10 +85,13 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
 						</div>
 					</div>
 
-					<div class="card-body">
+					<div class="flex flex-col gap-2 p-4 lg:-mt-8 xl:mt-0 xl:p-8">
 						<div class="flex flex-col">
 							<div class="h-14 flex flex-col justify-end lg:mt-16 xl:mt-4">
-								<h2 class="card-title line-clamp-2 text-ellipsis leading-7 ">{post.frontmatter.title}</h2>
+								<h2 class="card-title line-clamp-2 text-ellipsis leading-7 ">
+									<a class="sm:hidden link" href={'/blog/' + post.slug}>{post.frontmatter.title}</a>
+									<span class="hidden sm:inline-block">{post.frontmatter.title}</span>
+								</h2>
 							</div>
 							<div class='flex flex-wrap gap-2 py-2 lg:hidden'>
 								{post.frontmatter.genres?.map(genre => (
@@ -95,24 +108,9 @@ const recentPosts = await Promise.all(recentPostsWithImagePromises)
 
 						<p class="line-clamp-3 xl:line-clamp-4 text-ellipsis">Enfant d'chienne de calvince de baptême de cibolac de cimonaque de mosus de Jésus de plâtre de cibouleau de sapristi de cibole de saint-ciarge. Sacristi de saintes fesses de mosus de câlique de charrue d'étole de crucifix d'enfant d'chienne de cimonaque.</p>
 
-						<div class="card-actions justify-between items-center">
+						<div class="hidden sm:flex card-actions justify-between items-center">
 							<div class="rating rating-md rating-half">
-								{Array.from({length: 5}).map((_, i) => (
-									<>
-										<input 
-											type="radio" 
-											name="rating" 
-											class="bg-orange-400 mask mask-star-2 mask-half-1" 
-											checked={3.5 === ((i * 2) + 1) * 0.5}
-										/>
-										<input 
-											type="radio" 
-											name="rating" 
-											class="bg-orange-400 mask mask-star-2 mask-half-2"
-											checked={3.5 === ((i * 2) + 2) * 0.5}
-										/>
-									</>
-								))}
+								<Rating rating={post.frontmatter.rating} name={post.frontmatter.bookImageId} />
 							</div>
 
 							<a href={'/blog/' + post.slug} class="btn btn-sm btn-outline">Read</a>

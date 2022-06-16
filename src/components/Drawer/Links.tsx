@@ -2,7 +2,7 @@ import { ChevronDown } from "../icons/";
 
 export type LinkMap = Map<string, Link>;
 export interface Link {
-  path: string;
+  path?: string;
   children?: LinkMap;
 }
 
@@ -61,6 +61,9 @@ const Links = (props: LinksProps) => {
             >
               {Array.from(link.children.keys()).map((childKey) => {
                 const childLink = link.children.get(childKey);
+                const href = childLink.path
+                  ? link.path + childLink.path
+                  : link.path;
 
                 return (
                   <li>
@@ -69,7 +72,7 @@ const Links = (props: LinksProps) => {
                         childKey,
                         "inline-block whitespace-nowrap overflow-hidden rounded-lg"
                       )}
-                      href={link.path + childLink.path}
+                      href={href}
                     >
                       {childKey}
                     </a>
