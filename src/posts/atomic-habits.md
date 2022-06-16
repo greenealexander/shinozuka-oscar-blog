@@ -3,7 +3,7 @@ title: Atomic Habits
 author: James Clear
 date: 6/16/2022
 layout: ../layouts/BlogPost.astro
-genres: ["Fiction", "Short Story Collection"]
+genres: ["Non-Fiction", "Self-Help"]
 
 bookImageId: 4c3foejom9CSDPEmy8o1ZM
 rating: 5
