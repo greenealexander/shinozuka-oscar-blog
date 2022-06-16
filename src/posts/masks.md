@@ -4,8 +4,9 @@ title: "Masks: An Attempt At Poetry"
 date: 5/6/21
 layout: ../layouts/BlogPost.astro
 genres: ["Personal Work"]
+rating: 
 
-bookImageId: 9KXuuZjw3dmqbLGJ5g5Z1
+bookImageId: 5vQw6nRGf17AFZJgzdujwe
 ---
 
 <p class="bionic">
