@@ -11,9 +11,6 @@ bookLinkUs: https://google.com
 bookLinkJp: https://google.com
 ---
 
-Published: 2006
-Genre: Fiction, Mystery, Police Procedural
-
 ## Overall Review
 
 I’ve been more than happy with my progress through my reading list for 2021. However, I began writing my first mystery story recently, and I found myself struggling more than I thought I would. after reading a couple of non-fiction books on Japan and a handful of fiction written by Japanese authors, I realized that none of them had been mysteries—except for the collection of Edogawa Ranpo short stories. As someone who aspires to write mysteries, I think it goes without saying that I need to read more mysteries, so I decided to make some changes to my reading list by adding a lot of crime fiction.

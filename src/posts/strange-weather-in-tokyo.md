@@ -2,7 +2,7 @@
 title: Strange Weather in Tokyo
 author:  Hiromi Kawakami
 date: 6/20/2022
-layout: ../../layouts/BlogPost.astro
+layout: ../layouts/BlogPost.astro
 
 bookImage: 6cLMhU52DYdmxN6gODaUwq
 bookRating: 1
