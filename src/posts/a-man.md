@@ -1,6 +1,6 @@
 ---
 title: A Man
-author: Keiichiro Hirano
+author: Keiichiro Hirano Translated by Eli K.P. William
 date: 7/28/2022
 layout: ../layouts/BlogPost.astro
 genres: ["Mystery"]
