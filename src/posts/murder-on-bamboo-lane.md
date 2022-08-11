@@ -9,6 +9,7 @@ bookImageId: 4RaVvMlt4LdStADe47uhfd
 rating: 3
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: I usually litter my books with little stickies to mark important passages or sentences that I may want to include in my review and/or parts of the book that I would like to try and emulate in my own writing. Unfortunately, after reading Murder On Bamboo Lane and Snakeskin Shamisen, for the first time, I found myself not marking up the books nearly as much—marking passages in Murder On Bamboo Lane just four times.
 ---
 
 Published: 2014

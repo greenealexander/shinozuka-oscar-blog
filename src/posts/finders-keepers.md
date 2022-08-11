@@ -9,6 +9,7 @@ bookImageId: 3MsbFpci9zMbfqRancQSVC
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: Finders Keepers is the second book of the award-winning Bill Hodges trilogy. I loved the first book, <i>Mr. Mercedes</i>, but I decided to read some other books before beginning the next book to refresh my mind since Stephen King's books are always so long. I was engrossed from beginning to end, and highly regret not taking notes as I read. I didn’t have any intentions of writing a review when I started, but after reading it, I was overcome with an urge to share my thoughts on the book, and so here we are.
 ---
 
 Despite a slow start to this year’s reading list—this being just the second book that I’ve finished this year—I am making smooth and steady progress, and at the same time, starting to enjoy the books I’ve selected. However, some of the books that I had started earlier this year proved to be hard to read to completion. I’m currently in the middle of reading around ten books, which is as absurd and silly as it sounds. I would start a book and lose interest immediately or gradually, but I never made it halfway through any of them.
@@ -19,8 +20,6 @@ Initially, I sought books written by authors I hadn’t read before in hopes of 
 
 I find Stephen King’s approach to crime fiction interesting because his stories don’t focus on a trick or a complicated phenomenon like many other mysteries that I adore. Instead, he focuses on the characters and how they think and interact to make an epic novel. What’s astounding is that this series has so many characters. He can make each of them shine, no matter if they’re the protagonist or a janitor who makes a few appearances.
 
-Finders Keepers is the second book of an award-winning trilogy.
+Finders Keepers is the second book of the award-winning Bill Hodges trilogy. I loved the first book, <i>Mr. Mercedes</i>, but I decided to read some other books before beginning the next book to refresh my mind since Stephen King's books are always so long. 
 
-I was engrossed from beginning to end
-
-I highly regret not taking notes and marking the book as I read. I didn’t have any intentions of writing a review when I started, but after reading it, I was overcome with an urge to share my thoughts on the book, and so here we are.
+I was engrossed from beginning to end, and highly regret not taking notes as I read. I didn’t have any intentions of writing a review when I started, but after reading it, I was overcome with an urge to share my thoughts on the book, and so here we are.

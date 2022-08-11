@@ -9,6 +9,7 @@ bookImageId: 4H6Yv3HLbPhHofKLzJRkrP
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: This was the first book that I read after about a decade without reading a single book. This book just happened to be suggested by Amazon—how they knew I would be interested in this book is beyond me, and the author was a mystery to me as well, but I am so grateful to have found this book.
 ---
 
 ## Overall Review

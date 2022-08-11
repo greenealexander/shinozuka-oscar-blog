@@ -7,6 +7,7 @@ genres: ["Crime Fiction", "Thriller"]
 
 bookImageId: aNcRMZtLICpwuXbsPzBId
 rating: 4
+description: I really enjoyed reading the first book of this trilogy, <i> The Girl With The Dragon Tattoo,</i> which was thrilling from beginning to end. <i> The Girl Who Played With Fire,</i> though it was also an enjoyable read, was not as good. I must admit that it took me about a month, maybe two, just to finish the first half of the book.
 ---
 
 Starting out as a hater of books, mostly due to being forced to read books that I had zero interest by teachers in school growing up, I preferred watching movies. I first discovered the trilogy written by Steig Larsson after watching the movie <i>The Girl With The Dragon Tattoo</i> starring Daniel Craig. I went to the school the following day excited to tell my friends about the new film I'd seen. But that excitement soon turned to dissapointment as my friends told me that they had already seen the movie years ago. "The book is better," they said. I scoffed at the comment. Not only had I been late in finding the movie, apparently the book is suppoe=sed to be better. <i>How could a book be better than a movie?</i>

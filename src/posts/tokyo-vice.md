@@ -9,6 +9,7 @@ bookImageId: 6EFfZ2eIKpfIfktOxAGXcr
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: Continuing with my research on Japan, I picked up this book to learn more about the Yakuza—the Japanese mafia. Apart from the tattoos and finger cutting, I’ve heard them be described as a “necessary evil”—some members are even treated as celebrities, and so, I’ve always been fascinated with how they operate and why some people believe they’re “necessary.” The above quote is literally the first few lines of the book, which speak for itself.
 ---
 
 ## Overall Review

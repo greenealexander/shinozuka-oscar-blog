@@ -9,9 +9,11 @@ bookImageId: 24UIsfNfygKZsNAraZA0Oc
 rating: 4
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: Men Without Women was the first book that I’ve read by Haruki Murakami. I don’t usually read the types of books he’s is known for, but I was pleased to learn that this book was more philosophical and realistic than magical. This short story collection contains seven stories, each around 40 pages long, about men who in some shape or form are alone—each for very different reasons.
 ---
 
 I had heard great things about Haruki Murakami, but I had never actually read any of his work until now. One day a few months ago when I first decided to make an effort to study Japan, I was roaming YouTube trying to find some good lectures on Japanese culture and I happened upon a lecture by Jay Rubin giving a lecture about Haruki Murakami.
+
 Jay Rubin has a Ph.D. in Japanese literature from the University of Chicago and taught at the University of Washington for eighteen years before moving on to teach at Harvard University, which he left in 2008, and he is known for being one of the main translators of Haruki Murakami’s work. He wrote Making Sense of Japanese: What the Textbooks Don't Tell You (1992), a book about his thirty-plus year struggle with teaching and learning the Japanese language, and after working with Murakami for years and becoming close friends, he wrote a biography, Haruki Murakami and the Music of Words (2002). While watching Jay Rubin’s lectures, I was persuaded to read Murakami’s work for myself.
 
 Men Without Women was the first book that I’ve read by Haruki Murakami. I don’t usually read the types of books he’s is known for, but I was pleased to learn that this book was more philosophical and realistic than magical. This short story collection contains seven stories, each around 40 pages long, about men who in some shape or form are alone—each for very different reasons.

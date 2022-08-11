@@ -9,6 +9,7 @@ bookImageId: 3vaIn9Zh7gvYQAVUiYKKI3
 rating: 3
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: I fell in love with the protagonist of Snakeskin Shamisen, Mas Arai, a humble gardener and survivor of the Hiroshima bombing, who, despite being 72 years old, has some real konjo, guts. I figured out later that Naomi Hirahara’s father, Isamu, was only miles away from the epicenter of the atomic-bombing in 1945 yet survived. I think that it’s safe to assume that her character Mas Arai may have been inspired by her father, which I found very heartwarming and interesting.
 ---
 
 ## Overall Review

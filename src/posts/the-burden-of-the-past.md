@@ -9,6 +9,7 @@ bookImageId: 35ziYY2k5dOSAd6H7BeryZ
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: This book by Kan Kimura, contains case studies on two issues concerning Korea-Japan relations; the textbook issue and the comfort women issue. He emphasizes “the significance of developments in the 1980s and 1990s in fixing the historical perception dispute in its current form,” looking at empirical data to explain why the history textbooks and the comfort women attracted attention as issues almost forty years after the end of World War II and the liberation of the Korean peninsula from colonial rule. “Why did the gap between Japanese and South Korean perceptions of history that had previously remained latent suddenly become politicized during this period?”
 ---
 
 Published: 2019

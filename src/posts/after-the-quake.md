@@ -9,6 +9,7 @@ rating: 3
 bookImageId: 31ceNzEXSnMg9nFBk38GxS
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: This is the fifth book that I have read this year (2021), all of which have been books about Japan or books written by Japanese authors. I gave the previous four books I’ve read pretty high ratings (three five-star ratings and one four-star rating), and I was starting to get the impression that my ratings could be more biased than I would like them to be—because of my love of Japan. However, after reading this short story collection, I was able to expel this suspicion because I wasn’t a fan of this short story collection.
 ---
 
 ## Overall Review

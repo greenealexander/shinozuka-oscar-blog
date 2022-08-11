@@ -5,6 +5,7 @@ date: 5/6/21
 layout: ../layouts/BlogPost.astro
 genres: ["Personal Work"]
 rating: 
+description: I've been convinced by Mitsuru ([@BlueShirabyoshi]on Twitter) to try writing some poetry. I've always been indifferent to poetry. I’ve never been a huge reader of poetry because I found poems hard to comprehend during my younger years in grade school. But as I've gotten older and had more experiences, I've started to understand them a little better. So, here goes.
 
 bookImageId: 5vQw6nRGf17AFZJgzdujwe
 ---

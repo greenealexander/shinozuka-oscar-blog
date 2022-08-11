@@ -9,6 +9,7 @@ bookImageId: 53woiq1bNdRb2A89qy1iar
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: The book is a deep look into the Meiji Restoration (what writers generally refer to as the "Bakumatsu") through the eyes of Katsu Kaishu, the founder of the first Japanese navy and one of the most important men during the Restoration. Based on Kaishu's journals, memoirs, histories, and letters, are great stories of Saigo Takamori, Sakamoto Ryoma, Tokugawa Yoshinobu, and many others, demonstrating not only the political and economic aspects of life during this period but also the cultural and interpersonal sides, which made this beautifully written and well-organized record of the Meiji Restoration, one of the first history books that I had a difficult time putting down. This is a book I highly recommend to anyone—including absolute beginners of Japanese history like myself, interested in the most integral events leading to the modernization of Japan but doesn’t want to read a straight-up textbook.
 ---
 
 ## Overall Review

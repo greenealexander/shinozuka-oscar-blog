@@ -9,6 +9,7 @@ bookImageId: 2F4mvnIYG8DWYZXjFTDmjB
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: Japanese Tales of Mystery and Imagination by Edogawa Ranpo is a short story collection that includes 9 of his best short stories (The Human Chair, The Psychological Test, The Caterpillar, The Cliff, The Hell of Mirrors, The Twins, The Red Chamber, Two Crippled Men, The Traveler With The Red Pasted Rag Picture).
 ---
 
 ## Overall Review

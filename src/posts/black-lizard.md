@@ -10,6 +10,7 @@ bookImageId: 7LSYCOZNxbxfJN5JUyXFdZ
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: The book I read this week contained two famous works by Edogawa Ranpo. The first, The Black Lizard, is said to be the most famous novel featuring Akechi Kogoro, where he faces a beautiful criminal with a black lizard tattoo in a series of battles of wits. Before reading this, the only other story that I’ve read involving Akechi Kogoro was The Psychological Test, a story about a poor student who murders an old rich woman for her money and his attempt to fool the police—inspired by Crime and Punishment by Fyodor Dostoyevski and a great example of using a reference to create something original.
 ---
 
 

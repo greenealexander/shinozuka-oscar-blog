@@ -9,6 +9,7 @@ bookImageId: 4c3foejom9CSDPEmy8o1ZM
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: As the psychologist Carl Jung said, “Until you make the unconscious conscious, it will direct your life and you will call it fate.”
 ---
 
 ## Overall Review

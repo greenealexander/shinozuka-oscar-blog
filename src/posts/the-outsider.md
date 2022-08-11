@@ -9,6 +9,8 @@ bookImageId: 5vXxg11B81nufSIM0yQR3a
 rating: 3.5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: I was first introduced to Stephen King earlier this year when I read one of his best books, Misery, which instantly made me a fan. I went on to read more of King’s work—On Writing, The Mist, and Mr. Mercedes, all of which I would highly recommend. I enjoyed reading the first two-thirds of The Outsider, but the last third was like a lukewarm burger that had been sitting for hours in a bucket of grease—disappointingly mediocre and hard to finish. Although I wanted to put it down, to King’s credit, his preceding chapters had developed such a level of suspense that it left me curious to know how the story ended. And honestly, after reading the book to completion, I wouldn’t recommend this book, especially not to those looking for a good crime fiction novel.
+
 ---
 
 ## Overall Review

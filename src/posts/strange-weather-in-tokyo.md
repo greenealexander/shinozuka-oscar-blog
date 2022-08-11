@@ -8,6 +8,7 @@ bookImage: 6cLMhU52DYdmxN6gODaUwq
 bookRating: 1
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: Unfortunately, I wasn’t a big fan of the book. It was boring. Plain and simple. It was the first book in a while that I haven’t marked up with post-its as I usually do. It was also the first book where I fell asleep in public while reading. I usually read while I’m on the train or at the beach or at the local AEON Mall that is close by to make sure that I keep my focus. For some reason, I find myself in a more focused state while in public, though after reading Atomic Habits (the last book I read), I have a good idea of why this happens. 
 ---
 
 ## Overall Review

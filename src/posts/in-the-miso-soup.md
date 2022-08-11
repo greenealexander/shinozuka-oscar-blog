@@ -9,6 +9,7 @@ bookImageId: 1tG1nKs1qGayGNfsujbf05
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
+description: this psychological thriller also possesses a philosophical aspect that questions Japanese society’s morality while making some light comparisons with American culture and mainly criticizing Japan—and I love it for that. For most of my life, I had put Japan up on a pedestal with the impression that Japan was flawless, and it wasn’t until I moved to Japan in late 2019 that I slowly became aware that everything I thought to be true about Japan was nothing but inaccurate stereotypes, fracturing my ideal image of Japan. To be clear, I’m not saying that I like to hear criticisms of Japan or that I’m going to move somewhere else because I really love it here; it’s just that I’ve heard so much praise and admiration that it’s nice to hear the other side so that I can understand Japan’s imperfections.
 ---
 
 ## Overall Review
