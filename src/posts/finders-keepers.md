@@ -1,7 +1,7 @@
 ---
 title: Finders Keepers (Book 2 of Bill Hodges Trilogy)
 author: Stephen King
-date: May 5, 2022
+date: 5/5/2022
 layout: ../layouts/BlogPost.astro
 genres: ["Fiction", "Short Story Collection"]
 
