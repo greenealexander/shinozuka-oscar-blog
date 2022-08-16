@@ -9,14 +9,13 @@ bookImageId: aNcRMZtLICpwuXbsPzBId
 rating: 4
 description: I really enjoyed reading the first book of this trilogy, <i> The Girl With The Dragon Tattoo,</i> which was thrilling from beginning to end. <i> The Girl Who Played With Fire,</i> though it was also an enjoyable read, was not as good. I must admit that it took me about a month, maybe two, just to finish the first half of the book.
 ---
+## Overall Review
 
-Starting out as a hater of books, mostly due to being forced to read books that I had zero interest by teachers in school growing up, I preferred watching movies. I first discovered the trilogy written by Steig Larsson after watching the movie <i>The Girl With The Dragon Tattoo</i> starring Daniel Craig. I went to the school the following day excited to tell my friends about the new film I'd seen. But that excitement soon turned to dissapointment as my friends told me that they had already seen the movie years ago. "The book is better," they said. I scoffed at the comment. Not only had I been late in finding the movie, apparently the book is suppoe=sed to be better. <i>How could a book be better than a movie?</i>
+I first discovered the trilogy written by Steig Larsson after watching the movie <i>The Girl With The Dragon Tattoo</i> starring Daniel Craig. I'm a fan of Daniel's James Bond movies and came across this movie as I was looking for other movies he had starred in. 
+
+I went to the school the following day excited to tell my friends about the new film I'd seen. But that excitement soon turned to dissapointment as my friends told me that they had already seen the movie years ago. "The book is better," they said. I scoffed at the comment. Not only had I been late in finding the movie, apparently the book is suppoe=sed to be better. <i>How could a book be better than a movie?</i>
 
 Eventually almost a decade later, after graduating from university, moving to Japan, and finally changing my perspective on reading, at long last I bought the entire trilogy. 
-
----
-
-## Overall Review
 
 I really enjoyed reading the first book of this trilogy, <i> The Girl With The Dragon Tattoo,</i> which was thrilling from beginning to end. <i> The Girl Who Played With Fire,</i> though it was also an enjoyable read, was not as good. I must admit that it took me about a month, maybe two, just to finish the first half of the book.
 
@@ -30,7 +29,7 @@ Overall, it had a very slow start, but if you can get past that, you defintely w
 
 ---
 
-## Reading For Inspiration: Mark Cuban, Hunting Ammunition
+## Reading For Inspiration: Mark Cuban and Hunting Ammunition
 
 I've spent about a year now writing, trying to improve little by little everyday. Since it is a goal of mine to write a novel one day,  
 

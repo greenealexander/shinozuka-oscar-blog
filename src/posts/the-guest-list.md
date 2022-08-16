@@ -24,16 +24,33 @@ I've read a few books written in this kind of style where the book is written in
 Also, if you don’t feel like reading it, I’d recommend you check out the audiobook version on Audible in which the voice actors do an amazing job. The story takes place in Ireland and the voice actress who plays one of the female characters, don’t remember which one, has an amazing Irish accent.
 
 ---
-
+##### Disclaimer: The sections below contain spoilers
 ### Goosebumps: Connecting the Dots 
 
-I'm a fan of rap music. Two of my favorite artists are Eminem and Russ. Both of them use unique lyrics and tell immersive storytelling, especially Eminem. But I also love Russ for the sheer amount of songs he consistently puts out, most of which he has “mixed, mastered, and engineered” himself. A novelist who I think embodies both of these qualities is Stephen King. The sheer amount of written work he produces consistently is mind-blowing, and every time I read his work, I’m shocked to find new metaphors and descriptions that I’ve never read in his prior books. When reading this paragraph, you may have thought, “where is he going with this.” But in the end, I was able to connect it back to story writing. 
+In the first third of <i>The Guest List</i>, as the characters are being introduced, it seems that that all of these people gathering at the wedding are unrelated to each other. But as the story unfolds, the reader is gradually presented with more knowledge about the past revealing a tangled web of lies and decete. 
+
+Hannah's sister, she was actually dating Will for sometime, but after they broke up, Will released some private videos of her. Unable to handle the humiliation, she took her own life.
+
+Hannah's husband is unusually close to Jules the Bride. Turns out Her husband had cheated on her with Jules. 
+
+Will and Johno, They killed 
+
+Aoife wedding planner, Her younger brother was bullied by Will and his friends and was killed by Will and Johno.
+Aoife's husband was her brother's best friend nicknamed "Fatty"
+
+Olivia the younger sister to the bride, Jules, dated Will for a time but Will wants to keep it a secret.
 
 ---
 
-### Wordchoice in Descriptions
+### More Goosebumps: Unique and Effective Wordplay 
 
->“I allow myself to begin to move in time with him, to the music. I allow him to move a little nearer, his eyes on mine. Perhaps I move closer, too. Close enough that I can smell his sweat—but clean sweat, a good smell. There’s a stirring in the pit of my stomach. A little sting of want.”
+One of my many weak points that I find in my own writing is the lack of unique and effective wordchoice. My favorite authors, even my favorite rappers, use very unique words when they describe an emotion or situation that they themselves or someone else is experiencing. When done well it never ceases to give me goosebumps.
+
+##### Russ Effortlessly Drops Bars Over OutKast's "Aquemini" Instrumental In L.A. Leakers Freestyle 125
+
+<iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/OyM4HGHsSUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+>I allow myself to begin to move in time with him, to the music. I allow him to move a little nearer, his eyes on mine. Perhaps I move closer, too. Close enough that I can smell his sweat—but clean sweat, a good smell. There’s a stirring in the pit of my stomach. A little sting of want.
 Page 261
 
 ---
