@@ -5,10 +5,11 @@ layout: ../layouts/AboutMe.astro
 ## Who is Oscar Shinozuka?
 
 #### The Short Version
-He was born in Newark, Delaware, USA
+
+Born in Newark, Delaware, USA
 Graduated from Lehigh University with a B.A. in Asian Studies
-Moved to Japan when he was 22 years old
-Started writing when he was 23 years old 
+Moved to Japan in 2019
+Started writing seriously at age 23
 Currently lives in Kobe, Japan
 
 #### The Long Version
