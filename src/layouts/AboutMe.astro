@@ -1,12 +1,9 @@
 ---
-import BaseLayout from './layouts/BaseLayout.astro';
-
-//const { content } = Astro.props;
-
+import BaseLayout from './BaseLayout.astro';
 ---
 
 <BaseLayout title='About Me'>
-
-
-
+  <article class="mx-auto prose md:prose-lg lg:prose-xl">
+    <slot />
+  </article>
 </BaseLayout>

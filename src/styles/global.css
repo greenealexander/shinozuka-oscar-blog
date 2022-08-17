@@ -51,3 +51,7 @@ header ~ nav > ul {
 .social-icon {
   @apply h-6 w-6 fill-current;
 }
+
+.recent-post {
+  background-color: hsl(var(--b1));
+}

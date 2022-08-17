@@ -39,8 +39,9 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 
 const Article = page.data[0].Content;
+const { title, description } = page.data[0];
 ---
 
-<BaseLayout title={page.data[0].frontmatter.title} containerClass="">
+<BaseLayout title={title} description={description} containerClass="">
 	<Article />
 </BaseLayout>
