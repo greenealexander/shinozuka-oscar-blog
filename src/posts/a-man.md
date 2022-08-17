@@ -9,7 +9,7 @@ bookImageId: 2VTCNWuJBAsLZoJuliZExL
 rating: 3
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
-description: Continuing with my exploration of Japanese authors, I read <i>A Man</i> by Keiichiro Hirano, winner of Japan’s prestigious Yomiuri Prize for Literature. This book was his first book to be translated into English, and I was super excited to read this book after reading its synopsis on Goodreads (which I've included below), but I felt that it didn't live up to its potential. 
+description: Continuing with my exploration of Japanese authors, I read A Man by Keiichiro Hirano, winner of Japan’s prestigious Yomiuri Prize for Literature. This book was his first book to be translated into English, and I was super excited to read this book after reading its synopsis on Goodreads (which I've included below), but I felt that it didn't live up to my expectations. 
 ---
 
 ### Overall Review
