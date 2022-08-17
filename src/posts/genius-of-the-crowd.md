@@ -1,7 +1,7 @@
 ---
 title: Genius of the Crowd
 author: Charles Bukowski
-date: 12/21/2020
+date: 8/18/2022
 layout: ../layouts/BlogPost.astro
 genres: ["Poetry" ]
 
@@ -9,9 +9,10 @@ bookImageId:
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
-description: My first experience with Charles Bukowski was watching the above video. For some reason, YouTube had suggested it to me. I didn’t know who he was or what the video was about, but I happened to click on it anyway because the title was intriguing. I would then end up falling in love with this poem and go on to read Ham On Rye (1982), a semi-autobiographical novel of Charles Bukowski that follows his alter-ego Henry Chinaski—which I also loved.
+description: Until more recently, I had never been a lover of poetry, some too short, some too long, and some too hard to understand. To me poetry was something for the prententious and snobby, and not smoething that was worth reading. But as I sat, alone with thoughts, in my tiny twenty square meter apartment in west Kobe, I began contemplating the validity of my life choices. 
 ---
 
+## Discovering Charles Bukowski: Learning to Appreciate Poetry
 Until more recently, I had never been a lover of poetry, some too short, some too long, and some too hard to understand. To me poetry was something for the prententious and snobby, and not smoething that was worth reading. But as I sat, alone with thoughts, in my tiny twenty square meter apartment in west Kobe, I began contemplating the validity of my life choices. 
 
 I had just moved to Kobe after coming to the conclusion that living in an old, small, and moldy house shared with seven other Japanese people—having to share my room with two of them leaving me with no room for much needed personal space—was not a healthy environment. 
@@ -26,25 +27,11 @@ Finally, after about 8 months of living in that share house, located in Saitama 
 
 For some reason, YouTube had suggested it to me. I didn’t know who he was or what the video was about, but I happened to click on it anyway because the title was intriguing. I would then end up falling in love with this poem and go on to read Ham On Rye (1982), a semi-autobiographical novel of Charles Bukowski that follows his alter-ego Henry Chinaski—which I also loved.
 
+#### Genius of the Crowd (Video Version with Subtitles)
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/0doGM_6izYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Beware the Preachers
 I preached happiness to my friends, to family, and even to strangers I’d just met, but I didn’t have it:
-
->Those who preach god, need god
-Those who preach peace do not have peace
-Those who preach peace do not have love
-— Charles Bukowski, Genius of the Crowd
-
->Beware the average man the average woman
-Beware their love, their love is average
-Seeks average
-But there is genius in their hatred
-There is enough genius in their hatred to kill you
-To kill anybody
-— Charles Bukowski, Genius of the Crowd
-
-He uses the word average four times and suddenly uses the word genius. The contrast… This is my favorite part of the poem and it never ceases to send a chill down my spine. 
 
 “Beware the preachers
 Beware the knowers
@@ -55,7 +42,17 @@ Beware those quick to praise
 For they need praise in return
 Beware those who are quick to censor
 They are afraid of what they do not know”
-— Quote Source
+— Charles Bukowski, Genius of the Crowd
+
+He uses the word average four times and suddenly uses the word genius. The contrast… This is my favorite part of the poem and it never ceases to send a chill down my spine. 
+
+>Beware the average man the average woman
+Beware their love, their love is average
+Seeks average
+But there is genius in their hatred
+There is enough genius in their hatred to kill you
+To kill anybody
+— Charles Bukowski, Genius of the Crowd
 
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/-5RCmu-HuTg?start=3900" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
