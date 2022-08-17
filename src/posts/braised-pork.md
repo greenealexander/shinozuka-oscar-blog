@@ -11,3 +11,7 @@ bookLinkUs: https://google.com
 bookLinkJp: https://google.com
 description:
 ---
+
+## Overall Review
+
+Honestly the trippiest book that I've ever read, maybe only second to <i>Kafka on the Shore</i> by Haruki Murakami, but I liked this book much more. 

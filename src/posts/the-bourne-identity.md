@@ -5,7 +5,7 @@ date: 12/24/2020
 layout: ../layouts/BlogPost.astro
 genres: ["Crime Fiction", "Thriller"]
 
-bookImageId: 3MsbFpci9zMbfqRancQSVC
+bookImageId: 16SVASEJCwlNq5kTznoO4F
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
