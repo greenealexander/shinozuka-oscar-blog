@@ -1,9 +1,9 @@
 ---
 title: Genius of the Crowd
 author: Charles Bukowski
-date: 8/18/2022
+date: 8/17/2022
 layout: ../layouts/BlogPost.astro
-genres: ["Poetry" ]
+genres: ["Poetry"]
 
 bookImageId: 
 rating: 5
@@ -27,13 +27,11 @@ Finally, after about 8 months of living in that share house, located in Saitama 
 
 For some reason, YouTube had suggested it to me. I didn’t know who he was or what the video was about, but I happened to click on it anyway because the title was intriguing. I would then end up falling in love with this poem and go on to read Ham On Rye (1982), a semi-autobiographical novel of Charles Bukowski that follows his alter-ego Henry Chinaski—which I also loved.
 
-#### Genius of the Crowd (Video Version with Subtitles)
+## Genius of the Crowd (Video Version with Subtitles)
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/0doGM_6izYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Beware the Preachers
-I preached happiness to my friends, to family, and even to strangers I’d just met, but I didn’t have it:
-
-“Beware the preachers
+## Beware the Preachers: Becoming More Self-Aware
+>Beware the preachers
 Beware the knowers
 Beware those who are always reading books
 Beware those who either detest poverty
@@ -41,11 +39,14 @@ Or are proud of it
 Beware those quick to praise
 For they need praise in return
 Beware those who are quick to censor
-They are afraid of what they do not know”
+They are afraid of what they do not know
 — Charles Bukowski, Genius of the Crowd
+
+Reading these lines above got me thinking about my own behavior since Charles Bukowski described a person who, to my dismay, sounded a bit like myself. 
 
 He uses the word average four times and suddenly uses the word genius. The contrast… This is my favorite part of the poem and it never ceases to send a chill down my spine. 
 
+## My Favorite Part of the Poem
 >Beware the average man the average woman
 Beware their love, their love is average
 Seeks average
