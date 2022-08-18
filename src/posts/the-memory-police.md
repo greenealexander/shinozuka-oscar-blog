@@ -12,7 +12,6 @@ bookLinkJp: https://google.com
 description:
 ---
 
-
 ## Overall Review
 
 I had high expectations going into this book since it was named a finalist for the 2019 National Book Award for Translated Literature, shortlisted for the 2020 International Booker Prize, and a finalist for the 2020 World Fantasy Award. At first, this book reminded me of Misery by Stephen King, one of my favorite books I’ve ever read, because, in both novels, the main protagonists are authors who write their own novels, which are cleverly included as chapters in the actual books. But, that was the only similarity between the two books. Unlike Misery’s heavily character-driven and suspenseful plot, which kept me engrossed until the very end, The Memory Police lacked both plot and character development, leaving me feeling disappointed—at first. 
@@ -49,7 +48,7 @@ Disclaimer: The following sections contain spoilers!
     - 
     - 
 
-
+---
 ## Importance of Creation: Creating More Than Is Lost
 
 #### Japan's Creation Myth: Izanagi and Izanami
@@ -80,6 +79,8 @@ This idea of creating more than is lost brings to mind some popular issues in Ja
 
 >- According to FRED https://fred.stlouisfed.org/series/LFWA64TTJPM647S, the working-age population was around 87 million in the mid-1990s but has continued to fall from that point to around 74 million at present. 
 
+---
+
 ## What Is Worth Saving? Is Existing Enough?
 
 #### Saving Japanese History and Culture
@@ -107,6 +108,8 @@ This brought up an interesting question to my mind: what defines existence? For 
 
 This reminded me of the Greek word kleos, often translated as "renown" or "glory." It is related to the English word "loud" and carries the implied meaning of "what others hear about you.” A Greek hero earns kleos through accomplishing great deeds (Wikipedia). Men would long for battle willing to throw away their lives for glory, so they could leave their mark on history and live on in memory as legends. 
 
+---
+
 ## Who Gets to Decide? 
 
 >"Our primary function here is to assure that there are no delays in the process and that useless memories disappear quickly and easily. I’m sure you’d agree that there is no point in holding onto them. If your big toe becomes infected with gangrene, you cut it off as soon as you can. If you do nothing, you end up losing the whole leg. The principle is the same. The only difference is that you can’t touch or see memories, or get inside the hearts they’re kept in. Each one of us hides them away in secret. So, since our adversary is invisible, we are forced to use our intuition. It is extremely delicate work. In order to unmask these invisible secrets, to analyze and sort and dispose of them, we must work in secret, to protect ourselves. I think you can understand."
@@ -116,6 +119,8 @@ Jordan Peterson delivered this lecture at the North York Civic Centre Council Ch
 
 “It’s left to the reader to ask the questions. Who are the Memory Police, with their fine uniforms and empty faces? To whom do they report, and how did they come to hold such absolute power? How is it that all the fruit disappears, or that the snow never melts – that nature itself submits? Are we the Memory Police as well as the ones without memory?”
 — Madeleine Thien, The Guardian
+
+---
 
 ## Voices
 

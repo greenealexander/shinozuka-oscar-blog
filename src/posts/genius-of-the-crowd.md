@@ -27,8 +27,12 @@ Finally, after about 8 months of living in that share house, located in Saitama 
 
 For some reason, YouTube had suggested it to me. I didn’t know who he was or what the video was about, but I happened to click on it anyway because the title was intriguing. I would then end up falling in love with this poem and go on to read Ham On Rye (1982), a semi-autobiographical novel of Charles Bukowski that follows his alter-ego Henry Chinaski—which I also loved.
 
+---
+
 ## Genius of the Crowd (Video Version with Subtitles)
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/0doGM_6izYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ## Beware the Preachers: Becoming More Self-Aware
 >Beware the preachers
@@ -42,12 +46,14 @@ Beware those who are quick to censor
 They are afraid of what they do not know
 — Charles Bukowski, Genius of the Crowd
 
-Reading these lines above got me thinking about my own behavior since Charles Bukowski described a person who, to my dismay, sounded a bit like myself. 
+When I read these lines, it got me thinking about my own behavior. The person Charles Bukowski described, to my dismay, sounded a bit like myself. I, a broke, unsuccessful 23 year old, had caught myself preaching about how to live a happy life. 
 
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/-5RCmu-HuTg?start=3900" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 >“Do you want to be right? Or do you want to be learning? And it’s deeper than that, do you want to be the tyrannical king who’s already got everything figured out? Or do you want to be the continually transforming hero?; or fool for that matter, who’s getting better all the time. And that’s actually a choice. It’s a deep choice. And it’s better to be the self-transforming fool who’s humble enough to make friends with what he or she doesn’t know and to listen when people talk.”
 — Jordan B. Peterson, "Jordan B. Peterson on 12 Rules for Life," 1:06:40
+
+---
 
 ## My Favorite Part of the Poem
 >Beware the average man the average woman
@@ -59,6 +65,8 @@ To kill anybody
 — Charles Bukowski, Genius of the Crowd
 
 He uses the word average four times and suddenly uses the word genius. The contrast… This is my favorite part of the poem and it never ceases to send a chill down my spine. 
+
+---
 
 ## The Crowd Mentality: The Zebra Story and Human Motivation
 

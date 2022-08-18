@@ -9,7 +9,7 @@ bookImageId:
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
-description:
+description: I don’t usually bother to pay any attention to the reviews/praise of a book because I often find them completely over the top with senseless exaggerations. However, in this instance, they were one hundred percent spot on. I seldomly find a book that I finish so quickly, but reading The Silent Patient was effortless. The twists were simply genius and geniusly simple. This book is literally perfect! It’s a book that I’d recommend over and over, and it’s crazy to think that Alex Michaelides's second book, The Maidens, another psychological thriller and mystery, is rated higher than The Silent Patient. I’m definitely going to buy it!
 ---
 
 ## Overall Review
@@ -29,6 +29,8 @@ The first thing that I saw when I flipped open the cover was a list of quotes pr
 — David Baldacci
 
 I don’t usually bother to pay any attention to the reviews/praise of a book because I often find them completely over the top with senseless exaggerations. However, in this instance, they were one hundred percent spot on. I seldomly find a book that I finish so quickly, but reading The Silent Patient was effortless. The twists were simply genius and geniusly simple. This book is literally perfect! It’s a book that I’d recommend over and over, and it’s crazy to think that Alex Michaelides's second book, The Maidens, another psychological thriller and mystery, is rated higher than The Silent Patient. I’m definitely going to buy it!
+
+---
 
 ## Next Section
 
