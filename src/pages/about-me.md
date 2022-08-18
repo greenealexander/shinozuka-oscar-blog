@@ -12,6 +12,8 @@ Moved to Japan in 2019
 Started writing seriously at age 23
 Currently lives in Kobe, Japan
 
+<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/oscargreene02/cl6yi22b1004y14nx9tei5h33.html?title=false&access_token=pk.eyJ1Ijoib3NjYXJncmVlbmUwMiIsImEiOiJjbDZ5aTBrbXIyZXM4M2JsbXY5MWJhaHptIn0.f4gZgRV1gxle2H-2Njyw7w&zoomwheel=false#2/20/0" title="Monochrome" style="border:none;"></iframe>
+
 #### The Long Version
 
 He was born and raised in Newark, Delaware, a quiet and peaceful city on the northeastern coast of the United States. When he was fifteen he moved to Texas, spending the last three years of his adolescent life focusing on soccer—as he had from the age of eight—which led him to get scouted to play for the Lehigh University Men’s Soccer team in Bethlehem, Pennsylvania. 

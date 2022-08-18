@@ -1,7 +1,7 @@
 ---
 title: Genius of the Crowd
 author: Charles Bukowski
-date: 8/17/2022
+date: 8/18/2022
 layout: ../layouts/BlogPost.astro
 genres: ["Poetry"]
 
@@ -44,7 +44,10 @@ They are afraid of what they do not know
 
 Reading these lines above got me thinking about my own behavior since Charles Bukowski described a person who, to my dismay, sounded a bit like myself. 
 
-He uses the word average four times and suddenly uses the word genius. The contrast… This is my favorite part of the poem and it never ceases to send a chill down my spine. 
+<iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/-5RCmu-HuTg?start=3900" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+>“Do you want to be right? Or do you want to be learning? And it’s deeper than that, do you want to be the tyrannical king who’s already got everything figured out? Or do you want to be the continually transforming hero?; or fool for that matter, who’s getting better all the time. And that’s actually a choice. It’s a deep choice. And it’s better to be the self-transforming fool who’s humble enough to make friends with what he or she doesn’t know and to listen when people talk.”
+— Jordan B. Peterson, "Jordan B. Peterson on 12 Rules for Life," 1:06:40
 
 ## My Favorite Part of the Poem
 >Beware the average man the average woman
@@ -55,12 +58,7 @@ There is enough genius in their hatred to kill you
 To kill anybody
 — Charles Bukowski, Genius of the Crowd
 
-<iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/-5RCmu-HuTg?start=3900" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
->“Do you want to be right? Or do you want to be learning? And it’s deeper than that, do you want to be the tyrannical king who’s already got everything figured out? Or do you want to be the continually transforming hero?; or fool for that matter, who’s getting better all the time. And that’s actually a choice. It’s a deep choice. And it’s better to be the self-transforming fool who’s humble enough to make friends with what he or she doesn’t know and to listen when people talk.”
-— Jordan B. Peterson, "Jordan B. Peterson on 12 Rules for Life," 1:06:40
-
-Beware the average man the average woman. Beware their love. Their love is average. Seeks average.  But there is genius in their hatred. There is enough hatred in their love to kill you. To kill anybody.
+He uses the word average four times and suddenly uses the word genius. The contrast… This is my favorite part of the poem and it never ceases to send a chill down my spine. 
 
 ## The Crowd Mentality: The Zebra Story and Human Motivation
 

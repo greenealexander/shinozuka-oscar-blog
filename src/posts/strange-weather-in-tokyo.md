@@ -1,6 +1,6 @@
 ---
 title: Strange Weather in Tokyo
-author:  Hiromi Kawakami
+author:  Hiromi Kawakami (Translated by Allison Markin Powell)
 date: 6/20/2022
 layout: ../layouts/BlogPost.astro
 

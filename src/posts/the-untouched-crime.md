@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/BlogPost.astro
-author: Zijin 
+author: Zijin Chen (translated by Michelle Deeter)
 title: The Untouched Crime
 date: 7/14/2022
 genres: ["Crime Fiction", "Mystery"]

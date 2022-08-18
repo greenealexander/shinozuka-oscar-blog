@@ -1,6 +1,7 @@
 ---
 title: A Nearly Normal Family
-author: M. T. Edvardsson
+author: M. T. Edvardsson (Translated by Rachel Willson-Broyles)
+ 
 date: 12/28/2020
 layout: ../layouts/BlogPost.astro
 genres: ["Thriller", "Suspense", "Psychological Fiction"]

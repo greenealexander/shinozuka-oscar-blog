@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/BlogPost.astro
-author: Stieg Larsson
+author: Stieg Larsson (Translated by Reg Keeland)
 title: The Girl Who Played With Fire
 date: 6/30/2022
 genres: ["Crime Fiction", "Thriller"]
