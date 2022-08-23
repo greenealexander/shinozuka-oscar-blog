@@ -31,7 +31,6 @@ description:
 [...] Man loves creating and making of roads, that is indisputable. But why does he so passionately love destruction and chaos as well? Tell me that!
 <cite>Fyodor Dostoyevski, pg. 32 </cite>
 
-
 >And why are you so firmly, so solemnly convinced that only the normal and the positive, in short, that only well-being, is profitable for man? [...] suffering, for example, is inadmissible in vaudevilles, I know that. In a crystal palace it is even unthinkable: suffering is doubt, it is negation, and what good is a crystal palace in which one can have doubts? And yet I am certain that man will never renounce real suffering, that is, destruction and chaos. Suffering – why, this is the sole cause of consciousness.
 <cite>Fyodor Dostoyevski, pg. 34-35</cite>
 
