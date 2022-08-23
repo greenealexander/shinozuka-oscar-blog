@@ -6,7 +6,7 @@ layout: ../layouts/BlogPost.astro
 genres: ["Crime Fiction", "Thriller"]
 
 bookImageId: 16SVASEJCwlNq5kTznoO4F
-rating: 5
+rating: 4.5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
 description: If you are worried about picking up a copy for yourself because you’ve seen the movie like I was—don’t be. Robert Ludlum’s psychological spy thriller of an amnesiac on a journey into the unknown to reclaim his life opened doors of insight into the human mind that can’t be reproduced in its depth on screen. The internal and external chaos is masterfully balanced with a romantic element, both of which are completely different from the film. I highly recommend both the film and the book, but if you want a deeper and more complex storyline, I suggest you read this book.

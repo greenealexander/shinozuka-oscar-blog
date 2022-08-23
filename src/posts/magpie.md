@@ -12,14 +12,24 @@ bookLinkJp: https://google.com
 description: 
 ---
 
-## Overall Review
+After reading a couple underwelling books, I was desperate to find something that would get my blood boiling and my brain running. However, looking at my bookshelf, I didn't see anything that peaked my interest. So, disappointed, and bored, I aimlessly opened up Twitter. After an amount of time that I'd rather not admit past, I saw a tweet that mentioned a book called Magpie by Elizabeth Day. The cover art immediately caught my eye. And once I discovered that this book was a psychological thriller - one of my favorite genres - about the struggles of a couple trying to have a baby and their new housemate who strangely knows too much about them, it was a no brainer to make the purchase. 
+
+As soon as I started reading, I felt a sense comfort. One of the reasons that I prefer psychological fiction to other genres is the depth of the characters. It's so much easier to create a connection to characters when the author takes the time to explicitly reveal how characters feel and what they are thinking. It allows me to relate to them at a deeper level. 
+
+For instance, I love the Sherlock Holmes series, but I was never able to get into Holmes' head to understand how his mind processed information. Obviously, at the end there is the juicy reveal of the criminal as Holmes exposes the culprit, his motives, and his tricks. He lays out his conclusions and divulges how he came to those conclusions, but this is all after the fact. I would have loved to have been able to read his thoughts in real time as he is trying to reach his conclusions. 
+
+People may argue that not knowing what he is thinking is what makes his character mysterious, which is important, perhaps even more so in the mystery genre. And that the focus in the series is on solving cases rather than on Holmes as a character. It's hard to increase the depth of short stories too since they are inherently shorter. And as valid as these arguements may be, I would still prefer more psychological depth when I'm reading, and I got just that in Magpie.
+
+
 
 ---
 
 ## Creative Imagination: Metaphores That Paint A Clear Picture
 
->Marisa was simultaneously fascinated and horrified by the baby. It seemed strange that this alien being had been squashed up in her mother's stomch and had emerged, bearing only the vaguest resemblances to a proper human, with skin so thin and stretched it seemed almost tanslucent. The baby's fingers were tiny as maggots, her eyes cloudy like apple juice. And all the gown-ups were mad about her, this squalling newborn, who had no personality as far as Marisa coulde see.
+>Marisa was simultaneously fascinated and horrified by the baby. It seemed strange that this alien being had been squashed up in her mother's stomach and had emerged, bearing only the vaguest resemblances to a proper human, with skin so thin and stretched it seemed almost tanslucent. The baby's fingers were tiny as maggots, her eyes cloudy like apple juice. And all the gown-ups were mad about her, this squalling newborn, who had no personality as far as Marisa coulde see.
 <cite>Elizabeth Day, pg. 17</cite>
+
+The use of the phrase, "tiny as maggots" 
 
 >She lay awake for a long time, feeling the slug trail of tears on her face, and she made a promise to herself that she would never talk about it again. She would pretend not to mind, and in this way, she would grow strong and careless and no one else would ever be able to hurt her.
 <cite>Elizabeth Day, pg. 26</cite>
@@ -38,9 +48,6 @@ description:
 
 > Annabelle pretends she doesn't need to hear it, but she lets Jake carry on talking and Kate watches as she grows rosy and cintented, fattened like a maggot by all the compliments.
 <cite>Elizabeth Day, pg. 257</cite>
-
->Anxiety clouds her thoughts like condensation on a mirror. Does he really need to be away so often? Why is he was working so much? Why has he turned off the tracking app he used to have on his phone?
-<cite>Elizabeth Day, pg. 277</cite>
 
 >...two flawed people, fitted into each other's failings like ivy burrowing into the loosening gaps between brick. You couldn't cut back the ivy without risking the house falling down. But the stone would crumble eventually, weakened by the insistent force of the plant pushing its thickening stem into every soft place. And then there would be collapse, a cloud of imploded stone. That is how it would end.
 <cite>Elizabeth Day, pg. 309</cite>

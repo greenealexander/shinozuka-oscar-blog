@@ -1,6 +1,6 @@
 ---
 title: Name of the Game is a Kidnapping
-author: Keiichiro Hirano Translated by Eli K.P. William
+author: Keiichiro Hirano (Translated by Eli K.P. William)
 date: 5/4/2021
 layout: ../layouts/BlogPost.astro
 genres: ["Mystery"]
