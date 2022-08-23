@@ -12,7 +12,7 @@ Moved to Japan in 2019
 Started writing seriously at age 23
 Currently lives in Kobe, Japan
 
-<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/oscargreene02/cl6yi22b1004y14nx9tei5h33.html?title=false&access_token=pk.eyJ1Ijoib3NjYXJncmVlbmUwMiIsImEiOiJjbDZ5aTBrbXIyZXM4M2JsbXY5MWJhaHptIn0.f4gZgRV1gxle2H-2Njyw7w&zoomwheel=false#2/20/0" title="Monochrome" style="border:none;"></iframe>
+
 
 #### The Long Version
 
