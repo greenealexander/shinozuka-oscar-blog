@@ -7,7 +7,7 @@ genres: ["Crime Fiction", "Thriller"]
 
 bookImageId: aNcRMZtLICpwuXbsPzBId
 rating: 4
-description: I really enjoyed reading the first book of this trilogy, <i> The Girl With The Dragon Tattoo,</i> which was thrilling from beginning to end. <i> The Girl Who Played With Fire,</i> though it was also an enjoyable read, was not as good. I must admit that it took me about a month, maybe two, just to finish the first half of the book.
+description: I really enjoyed reading the first book of this trilogy, The Girl With The Dragon Tattoo, which was thrilling from beginning to end. The Girl Who Played With Fire, though it was also an enjoyable read, was not as good. I must admit that it took me about a month, maybe two, just to finish the first half of the book.
 ---
 ## Overall Review
 

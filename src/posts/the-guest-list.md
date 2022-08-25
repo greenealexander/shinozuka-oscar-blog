@@ -7,6 +7,7 @@ genres: ["Mystery", "Psychological Thriller"]
 
 bookImageId: 1gQdTWpWln5bTSztsrXZjJ
 rating: 5
+description: At first, I thought that this was going to be a straightforward read where one character—in this case, the criminal—has some secret grudge against either the bride or the groom, and so one of them would inevitably be found dead, then the story would unfold like a standard whodunnit mystery. I was pleasantly surprised by how the story develops and how characters' pasts are revealed to me, the reader, and to the characters themselves. It sort of reminds me of the book A Nearly Normal Family where the story split into three parts, each part being a separate perspective of the same events. The Guest List however, instead of seperating each perspective into parts, each perspective is broken into chapters, and each perspective is set in a rotation of sorts like a poker game. 
 ---
 
 ### Overall Review
