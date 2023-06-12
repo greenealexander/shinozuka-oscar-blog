@@ -7,43 +7,22 @@ genres: ["Crime Fiction", "Thriller"]
 
 bookImageId: aNcRMZtLICpwuXbsPzBId
 rating: 4
-description: I really enjoyed reading the first book of this trilogy, The Girl With The Dragon Tattoo, which was thrilling from beginning to end. The Girl Who Played With Fire, though it was also an enjoyable read, was not as good. I must admit that it took me about a month, maybe two, just to finish the first half of the book.
+description: Set in Sweden, the story picks up one year after the events of the first book. Mikael Blomkvist, an investigative journalist, is contacted by a young journalist named Dag Svensson, who intends to publish an exposé on sex trafficking. Soon after, Dag and his girlfriend are found murdered, and all the evidence points to Lisbeth Salander as the prime suspect.
 ---
+
 ## Overall Review
 
-I first discovered the trilogy written by Steig Larsson after watching the movie <i>The Girl With The Dragon Tattoo</i> starring Daniel Craig. I'm a fan of Daniel's James Bond movies and came across this movie as I was looking for other movies he had starred in. 
+"The Girl Who Played with Fire" is the second book in the Millennium series, written by Stieg Larsson. Published posthumously in 2006, the novel continues the thrilling story that began with "The Girl with the Dragon Tattoo." The book delves deeper into the complex characters of Lisbeth Salander and Mikael Blomkvist while exploring themes of corruption, abuse, and justice.
 
-I went to the school the following day excited to tell my friends about the new film I'd seen. But that excitement soon turned to dissapointment as my friends told me that they had already seen the movie years ago. "The book is better," they said. I scoffed at the comment. Not only had I been late in finding the movie, apparently the book is suppoe=sed to be better. <i>How could a book be better than a movie?</i>
+Set in Sweden, the story picks up one year after the events of the first book. Mikael Blomkvist, an investigative journalist, is contacted by a young journalist named Dag Svensson, who intends to publish an exposé on sex trafficking. Soon after, Dag and his girlfriend are found murdered, and all the evidence points to Lisbeth Salander as the prime suspect.
 
-Eventually almost a decade later, after graduating from university, moving to Japan, and finally changing my perspective on reading, at long last I bought the entire trilogy. 
+The narrative focuses on Lisbeth's troubled past and her efforts to clear her name. Larsson skillfully weaves together multiple storylines, intertwining the lives of various characters. As the investigation progresses, the novel takes readers on a gripping journey filled with twists, turns, and shocking revelations.
 
-I really enjoyed reading the first book of this trilogy, <i> The Girl With The Dragon Tattoo,</i> which was thrilling from beginning to end. <i> The Girl Who Played With Fire,</i> though it was also an enjoyable read, was not as good. I must admit that it took me about a month, maybe two, just to finish the first half of the book.
+One of the strengths of the book is Larsson's ability to tackle complex social issues. He addresses themes of misogyny, abuse, and institutional corruption, shedding light on the darker aspects of society. The author's background as an investigative journalist shines through in the way he exposes the underbelly of Swedish society.
 
-Most of the first few hundred pages were used to introduce a several new characters, two being Dag Svensson and Mia Johansson. This couple had reached out to Millenium in hopes of publishing their research on sex-trafficking that would expose men, including many men who have ties to the Sweidsh Police. 
+While the plot is compelling, some readers may find that the pacing is slower in comparison to the first book. The story takes time to build, and it can feel dense with details and subplots. However, once the narrative gains momentum, it becomes difficult to put the book down. I just wish the momentum came sooner,  
 
-The parts that I found more interesting were the chapters about either Mikael Blomkvist or Lisbeth Salander. I fell in love with these two characters in the first book, and I liked catching up on what they were up to, Lisbeth especially. 
-
-Another saving grace that got me through the uneventful earlier sections of the book was the captivating writing style of Steig Larsson which engrossed me even more as things started to pick up in the second half. Although it took me a while to read the first 300 pages, the last 300 or so pages only took days. 
-
-Overall, it had a very slow start, but if you can get past that, you defintely won't be dissapointed.  
-
----
-
-## Reading For Inspiration: Mark Cuban and Hunting Ammunition
-
-I've spent about a year now writing, trying to improve little by little everyday. Since it is a goal of mine to write a novel one day,  
-
-Vanity Fair: “I'll read hours every day because all it takes is one little thing to propel you to the next level.”Oct 23, 2017
-
-> "We'll have to wait for forensics, but I'm guessing that the killer used hunting ammunition. There were massive wounds in both victims."
-
-> <br>The team considered this summary in silence. It was a debate that none of them needed to be reminded of. There are two types of ammunition: hard, full-metal-jacketed bullets that go straight through the body and cause comparatively modest damage, and soft ammunition that expands in the body on impact and does enormous damage. There is a vast difference between hitting a person with a bullet that's nine millimeters in diameter and a bullet that expands to a couple of centimetres or more in diameter. The latter type is called hunting ammunition, and its objective is to cause massive bleeding. It is considered more humane when hunting moose, since the aim is to put down the prey as quickly and painlessly as possible. But hunting ammunition is forbidden for use in war by international law, because a soldier hit by an expanding bullet almost always dies, no matter where the point of entry.
-<cite> - Steig Larsson, pg. 244-245 </cite>
-
----
-
-> <i>Two completely separate motives? Two Murderers? One murder weapon? </i>
-<cite> - Steig Larsson, pg. 455 </cite>
+"The Girl Who Played with Fire" successfully continues the overarching storyline established in the series. It is a thrilling and thought-provoking novel that pushes boundaries and keeps readers on the edge of their seats. Stieg Larsson's ability to tackle important social issues within a gripping narrative makes this book a compelling read for fans of crime fiction and suspenseful thrillers.
 
 
 
