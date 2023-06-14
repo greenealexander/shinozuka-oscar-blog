@@ -5,7 +5,7 @@ date: 3/17/2023
 layout: ../layouts/BlogPost.astro
 genres: ["Thriller", "Psychological Fiction", "Suspense"]
 
-bookImageId: 
+bookImageId: veeLGhWXUrkEQti6jROkA
 rating: 4
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

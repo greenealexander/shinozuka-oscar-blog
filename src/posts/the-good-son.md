@@ -6,7 +6,7 @@ layout: ../layouts/BlogPost.astro
 genres: ["Psychological Thriller", "Suspense"]
 Published: 1988 (original 1984)
 
-bookImageId: 
+bookImageId: 5YVjxvZ719VNm9osMkqxGG
 rating: 3.5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

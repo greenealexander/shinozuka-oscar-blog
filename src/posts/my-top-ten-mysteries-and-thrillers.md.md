@@ -4,7 +4,7 @@ author: Oscar Shinozuka
 date: 5/20/2023
 layout: ../layouts/BlogPost.astro
 
-bookImageId: 4RaVvMlt4LdStADe47uhfd
+bookImageId: 
 description: 
 ---
 

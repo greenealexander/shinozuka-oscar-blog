@@ -5,7 +5,8 @@ date: 8/18/2022
 layout: ../layouts/BlogPost.astro
 genres: ["Poetry"]
 
-bookImageId: 
+bookImageId: 3gmxye0usER865WnMQRPaY
+
 rating: 5
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com

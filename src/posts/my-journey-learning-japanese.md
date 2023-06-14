@@ -5,7 +5,7 @@ date: 6/12/2023
 layout: ../layouts/BlogPost.astro
 genres: ["Personal Blog", "Language Learning"]
 
-bookImageId: 4RaVvMlt4LdStADe47uhfd
+bookImageId: 4hNXVMhV94uAyPbhuYb4lc
 description: I reflect upon my experiences along my journey to learn Japanese, outlaying the specific materials I used to build a foundation while I took classes at University as well as expanding on what I did on my own outside of the classroom, where most of my progress was made.
 ---
 
