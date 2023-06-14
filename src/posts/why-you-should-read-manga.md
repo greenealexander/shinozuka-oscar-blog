@@ -5,8 +5,8 @@ date: 6/15/2023
 layout: ../layouts/BlogPost.astro
 genres: ["Personal Blog"]
 
-bookImageId: 
-description: 
+bookImageId: 3weZHJVJskIXf9MbN3zRJh
+description: Manga combines both visual and textual elements, allowing for a unique storytelling experience. The illustrations bring the narrative to life, providing vivid depictions of characters, settings, and action sequences. Visual cues, such as facial expressions, body language, and panel layouts, contribute to the overall storytelling, enhancing the emotional impact and immersing the reader in the world of the story.
 ---
 
 ### What is Manga?
