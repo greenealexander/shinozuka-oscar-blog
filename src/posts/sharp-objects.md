@@ -9,7 +9,7 @@ bookImageId:
 rating: 4
 bookLinkUs: https://google.com
 bookLinkJp: https://google.com
-description: "Sharp Objects" by Gillian Flynn is a dark and gripping psychological thriller that delves into the depths of human dysfunction and explores the consequences of unresolved trauma. It is a haunting and disturbing novel that showcases Flynn's masterful storytelling and her ability to create deeply flawed and complex characters.
+description: "\"Sharp Objects\" by Gillian Flynn is a dark and gripping psychological thriller that delves into the depths of human dysfunction and explores the consequences of unresolved trauma. It is a haunting and disturbing novel that showcases Flynn's masterful storytelling and her ability to create deeply flawed and complex characters."
 ---
 
 ## Overall Review
