@@ -5,18 +5,13 @@ date: 5/6/21
 layout: ../layouts/BlogPost.astro
 genres: ["Personal Work"]
 rating: 
-description: I've been convinced by Mitsuru ([@BlueShirabyoshi]on Twitter) to try writing some poetry. I've always been indifferent to poetry. I’ve never been a huge reader of poetry because I found poems hard to comprehend during my younger years in grade school. But as I've gotten older and had more experiences, I've started to understand them a little better. So, here goes.
-
-bookImageId: 5vQw6nRGf17AFZJgzdujwe
+description: 
+bookImageId: 
 ---
 
-<p class="bionic">
-  <b class="b">Howe</b>ver, <b class="b">wh</b>en <b class="b">s</b>he <b class="b">prop</b>osed <b class="b">th</b>at <b class="b">w</b>e <b class="b">wri</b>te <b class="b">abo</b>ut <b class="b">mas</b>ks <b class="b">sin</b>ce <b class="b">o</b>ur <b class="b">pri</b>or <b class="b">convers</b>ations <b class="b">we</b>re <b class="b">alre</b>ady <b class="b">o</b>n <b class="b">th</b>is <b class="b">the</b>me, <b class="b">I</b> <b class="b">cou</b>ldn&#x2019;t <b class="b">he</b>lp <b class="b">b</b>ut <b class="b">smi</b>le <b class="b">i</b>n <b class="b">rel</b>ief. <b class="b">Th</b>is <b class="b">i</b>s <b class="b">a</b> <b class="b">the</b>me <b class="b">th</b>at <b class="b">I</b>&#x2019;<b class="b">v</b>e <b class="b">thou</b>ght <b class="b">abo</b>ut <b class="b">a</b> <b class="b">l</b>ot, <b class="b">a</b>nd <b class="b">t</b>wo <b class="b">o</b>f <b class="b">m</b>y <b class="b">favo</b>rite <b class="b">poe</b>ms, <b class="b">Gen</b>ius <b class="b">o</b>f <b class="b">t</b>he <b class="b">Cro</b>wd <b class="b">a</b>nd <b class="b">Blue</b>bird, <b class="b">bo</b>th <b class="b">b</b>y <b class="b">Char</b>les <b class="b">Buko</b>wski, <b class="b">a</b>re <b class="b">lin</b>ked <b class="b">t</b>o <b class="b">th</b>is <b class="b">top</b>ic. <b class="b">I</b> <b class="b">embe</b>dded <b class="b">a</b> <b class="b">f</b>ew <b class="b">YouT</b>ube <b class="b">vid</b>eos <b class="b">th</b>at <b class="b">narr</b>ate <b class="b">m</b>y <b class="b">favo</b>rite <b class="b">poe</b>ms <b class="b">bel</b>ow <b class="b">i</b>n <b class="b">t</b>he <b class="b">follo</b>wing <b class="b">sect</b>ion.
-</p>
+I've always been indifferent to poetry, always dreading assignments in school that involved comprehending them. It's never been a strength of mine to decipher a poem let alone write one, but I had been convinced by a friend of mine to give it a try. I definitely think my writing style I could benefit greatly if I can learn how to think more metaphorically.
 
-I've been convinced by Mitsuru ([@BlueShirabyoshi](https://twitter.com/BlueShirabyoshi) on Twitter) to try writing some poetry. I've always been indifferent to poetry. I’ve never been a huge reader of poetry because I found poems hard to comprehend during my younger years in grade school. But as I've gotten older and had more experiences, I've started to understand them a little better. So, here goes.
-
-Mitsuru suggested that we write our own poems based on the same theme and see what happens. To say I was nervous is an understatement. I haven’t written anything poetic since my failed attempt at writing a rap song—which remains unfinished.
+My friend suggested that we each write our own poems based on the same theme/idea and see what happens. To say I was nervous is an understatement. I haven’t written anything poetic since my failed attempt at writing a rap song—which needless to say remains unfinished.
 
 However, when she proposed that we write about masks since our prior conversations were already on this theme, I couldn’t help but smile in relief. This is a theme that I’ve thought about a lot, and two of my favorite poems, Genius of the Crowd and Bluebird, both by Charles Bukowski, are linked to this topic. I embedded a few YouTube videos that narrate my favorite poems below in the following section.
 
@@ -24,9 +19,15 @@ However, when she proposed that we write about masks since our prior conversatio
 
 ## My Favorite Poems
 
+### The Raven by Edgar Allan Poe
+
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/BefliMlEzZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Genius of the Crowd by Charles Bukowski
+
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/0doGM_6izYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Bluebird by Charles Bukowski
 
 <iframe class="w-full h-auto aspect-video" width="560" height="315" src="https://www.youtube.com/embed/Yhi6y1XWb-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -34,7 +35,7 @@ However, when she proposed that we write about masks since our prior conversatio
 
 ## My First Attempts at Poetry 
 
-####Poem #1
+#### Poem #1
 
 “Stopped at the crosswalk,
 I watched the passersby,
