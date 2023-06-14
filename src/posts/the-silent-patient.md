@@ -35,18 +35,18 @@ I don’t usually bother to pay any attention to the reviews/praise of a book be
 ## Next Section
 
 >“He that has eyes and ears to hear may convince himself that no mortal can keep a secret. If his lips are silent, he chatters with his fingertips; betrayal oozes out of him at every pore. ”
-<Cite>— Sigmund Freud, Introductory Lectures on Psychoanalysis</Cite>
+<cite>— Sigmund Freud, Introductory Lectures on Psychoanalysis</cite>
 
 >‘I wanted to help people, I suppose,’ I said, with a shrug. ‘That’s it, really.’
 Which was bullshit.
 I mean, of course I wanted to help people. But that was a secondary aim - particularly at the time I started training. The real motivation was purely selfish. I was on a quest to help myself. I believe that the same is true for most people who go into mental health. We are drawn to this particular profession because we are damaged - we study psychology to heal ourselves. Whether we are prepared to admit this or not is another question. 
-<Cite>— The Silent Patient, Pg. 16-17</Cite>
+<cite>— The Silent Patient, Pg. 16-17</cite>
 
 >I took off my shoes on my way here, and walked barefoot. It reminded me of when I was little, and I’d play outside. It reminded me of another hot summer, hot like this one—the summer Mum died [...] In my memory that summer lasts forever. I remember Mum and those colourful tops she’d wear, with the yellow stringy straps, so flimsy and delicate - just like her. She was so thin, like a little bird. She would put on the radio and pick me up and dance me around to pop songs. I remember how she smelled of shampoo and cigarettes and Nivea hand cream, always with an undertone of vodka. How old was she then? Twenty-eight? Twenty-nine? She was younger then than I am now.
 That’s an odd thought.
 On my way here I saw a small bird on the path, lying by the roots of a tree. I thought it must have fallen from its nest. It wasn’t moving and I wondered if it had broken its wings. I stroked its head gently with my finger. It didn’t react. I nudged it and turned it over - and the underside of the bird was gone, eaten away, leaving a cavity filled with maggots. Fat, white, slippery maggots... twisting, turning, writhing... I felt my stomach turn - I thought I was going to be sick. It was so foul, so disgusting - deathly.
 I can’t get it out of my mind.
-<Cite>— The Silent Patient, Pg. 63-64</Cite>
+<cite>— The Silent Patient, Pg. 63-64</cite>
 
 
 There is a link between the plot of the story and a Greek story of Alcestis. I’ve always been a huge fan of Greek mythological stories since grade school—another reason why this book is an immediate favorite of mine. I have always appreciated how authors attempt to link their stories to mythology. This was my first time hearing of this particular Greek myth, which was not only an amazing story about betrayal, but the way Alex Michaelides ties it into his own story was flawless. 
